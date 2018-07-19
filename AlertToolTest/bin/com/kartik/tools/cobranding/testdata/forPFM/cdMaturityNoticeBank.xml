@@ -1,0 +1,31 @@
+<AlertMessage>
+  <Profile>
+    <AlertRecieverProfile>
+      <USERNAME>loginName</USERNAME>
+      <ADDRESS_1>3600 Bridge Parkway</ADDRESS_1>
+      <ADDRESS_2>Suite 200</ADDRESS_2>
+      <FIRST_NAME>FIRST_NAME</FIRST_NAME>
+      <MIDDLE_INITIAL>MIDDLE_INITIAL</MIDDLE_INITIAL>
+      <LAST_NAME>LAST_NAME</LAST_NAME>
+      <CITY>Redwood City</CITY>
+      <COUNTRY>USA</COUNTRY>
+      <EMAIL_ADDRESS>testuser@yodleetest.com</EMAIL_ADDRESS>
+      <currencySymbol>{com.yodlee.core.currency.USD.symbol}</currencySymbol>
+      <dateFormat>{com.yodlee.core.dateFormat.default}</dateFormat>
+      <cobrandId>10000004</cobrandId>
+      <decimalSeparator>{com.yodlee.core.decimalSeparator.default}</decimalSeparator>
+      <groupingSeparator>{com.yodlee.core.groupingSeparator.default}</groupingSeparator>
+      <groupPattern>{com.yodlee.core.groupPattern.default}</groupPattern>
+      <locale>US_en</locale>
+      <com.yodlee.alert.email.advancecontent>true</com.yodlee.alert.email.advancecontent>
+    </AlertRecieverProfile>
+  </Profile>
+  <message><header><messageId>15959494</messageId>
+<timestamp>2009-02-04T18:30:00Z</timestamp>
+<expiry>2009-02-17T05:27:42Z</expiry>
+<messageType>BANK_CD_MATURITY_NOTICE</messageType>
+<messageFormat>DATA</messageFormat>
+<retry>false</retry>
+<locale>en_US</locale>
+<destinationList><destination><destinationId>7</destinationId><destinationType>xml</destinationType><address>bprakash@yodlee.com</address></destination></destinationList></header><body><bankCDMaturityData><user><cobrandId>99</cobrandId><userId>10136153</userId><loginName>b802bld135</loginName></user><item><itemId>10419651</itemId><contentServiceId>4752</contentServiceId><contentServiceCategory>bank</contentServiceCategory><contentServiceName>TestSite for Bank</contentServiceName><custom>false</custom><itemNickname/><itemStatus>ACCESS_VERIFIED</itemStatus><lastSuccessfulAccessTimestamp>2009-02-10T05:27:22Z</lastSuccessfulAccessTimestamp><lastAccessAttemptTimestamp>2009-02-10T05:27:22Z</lastAccessAttemptTimestamp><lastAccessAttemptStatusCode>0</lastAccessAttemptStatusCode></item><itemAccount><accountId>11580408</accountId><accountName>Bank_CDMat_208</accountName><accountNumber>XXXX XXXX XXXX 1298</accountNumber><accountType>ASSET</accountType><accountBalance><currencyCode>USD</currencyCode><amount>190.00</amount></accountBalance><accountNickName/></itemAccount><maturityDate>2009-02-11</maturityDate><advanceWarningDays>7</advanceWarningDays></bankCDMaturityData></body></message>
+  </AlertMessage>

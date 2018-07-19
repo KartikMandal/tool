@@ -1,0 +1,3328 @@
+<AlertMessage>
+    <Profile>
+        <AlertRecieverProfile>
+            <USERNAME>Kartik</USERNAME>
+            <ADDRESS_1>3600 Bridge Parkway</ADDRESS_1>
+            <ADDRESS_2>Suite 200</ADDRESS_2>
+            <FIRST_NAME>FIRST_NAME</FIRST_NAME>
+            <MIDDLE_INITIAL>MIDDLE_INITIAL</MIDDLE_INITIAL>
+            <LAST_NAME>Mandal</LAST_NAME>
+            <CITY>Bangalore City</CITY>
+            <COUNTRY>USA</COUNTRY>
+            <EMAIL_ADDRESS>testuser@yodleetest.com</EMAIL_ADDRESS>
+            <currencySymbol>{com.yodlee.core.currency.USD.symbol}</currencySymbol>
+            <dateFormat>{com.yodlee.core.dateFormat.default}</dateFormat>
+            <cobrandId>10000004</cobrandId>
+            <decimalSeparator>{com.yodlee.core.decimalSeparator.default}</decimalSeparator>
+            <groupingSeparator>{com.yodlee.core.groupingSeparator.default}</groupingSeparator>
+            <groupPattern>{com.yodlee.core.groupPattern.default}</groupPattern>
+            <locale>US_en</locale>
+            <com.yodlee.alert.email.advancecontent>true</com.yodlee.alert.email.advancecontent>
+        </AlertRecieverProfile>
+    </Profile>
+    <message>
+        <body>
+            <financialSnapshot>
+  <user>
+    <cobrandId>99</cobrandId>
+    <userId>910274960</userId>
+    <loginName>prasad1498818897229</loginName>
+  </user>
+  <metaData>
+    <defaultCurrencyCode>USD</defaultCurrencyCode>
+    <year>2017</year>
+    <month>June</month>
+    <weekOfMonth>5</weekOfMonth>
+    <startDate>2017-06-18</startDate>
+    <endDate>2017-06-25</endDate>
+  </metaData>
+  <frequency>Weekly</frequency>
+  <userCurrencyCode>USD</userCurrencyCode>
+  <futureFmcSnapshot>
+    <fromDate>Jul 01</fromDate>
+    <toDate>Jul 07</toDate>
+    <dayCount>7</dayCount>
+    <dateWiseProjectedTxns>
+      <date>Saturday, JUL 01</date>
+      <daysLeft>0 days </daysLeft>
+      <projectedTxnView>
+        <account>
+          <accountName>xxx4566ACCxx3547</accountName>
+          <itemAccountId>1111671750</itemAccountId>
+          <accountNumber>xxxx1235</accountNumber>
+        </account>
+        <txnAmount>
+          <currencyCode>USD</currencyCode>
+          <amount>1200</amount>
+        </txnAmount>
+        <categorizationKeyword>Test1</categorizationKeyword>
+        <txnCategory>
+          <categoryName>Charitable Giving</categoryName>
+          <categoryTypeId>3</categoryTypeId>
+          <categoryLevelId>3</categoryLevelId>
+          <localizedCategoryName>Charitable Giving</localizedCategoryName>
+        </txnCategory>
+        <displayDate>
+          <transactionDate>Jul 01</transactionDate>
+          <txnDisplayDate>Jul 1,2017</txnDisplayDate>
+        </displayDate>
+        <transactionBaseType>debit</transactionBaseType>
+        <predicatedBlance>
+          <currencyCode>USD</currencyCode>
+          <amount>302</amount>
+        </predicatedBlance>
+      </projectedTxnView>
+      <projectedTxnView>
+        <account>
+          <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+          <itemAccountId>1111671749</itemAccountId>
+          <accountNumber>xxxx1234</accountNumber>
+        </account>
+        <txnAmount>
+          <currencyCode>USD</currencyCode>
+          <amount>1200</amount>
+        </txnAmount>
+        <categorizationKeyword>Test1</categorizationKeyword>
+        <txnCategory>
+          <categoryName>Charitable Giving</categoryName>
+          <categoryTypeId>3</categoryTypeId>
+          <categoryLevelId>3</categoryLevelId>
+          <localizedCategoryName>Charitable Giving</localizedCategoryName>
+        </txnCategory>
+        <displayDate>
+          <transactionDate>Jul 01</transactionDate>
+          <txnDisplayDate>Jul 1,2017</txnDisplayDate>
+        </displayDate>
+        <transactionBaseType>debit</transactionBaseType>
+        <predicatedBlance>
+          <currencyCode>USD</currencyCode>
+          <amount>-145.219</amount>
+        </predicatedBlance>
+      </projectedTxnView>
+      <projectedTxnView>
+        <account>
+          <accountName>xxx4566ACCxx3547</accountName>
+          <itemAccountId>1111671750</itemAccountId>
+          <accountNumber>xxxx1235</accountNumber>
+        </account>
+        <txnAmount>
+          <currencyCode>USD</currencyCode>
+          <amount>1000</amount>
+        </txnAmount>
+        <categorizationKeyword>Test0</categorizationKeyword>
+        <txnCategory>
+          <categoryName>Automotive Expenses</categoryName>
+          <categoryTypeId>3</categoryTypeId>
+          <categoryLevelId>3</categoryLevelId>
+          <localizedCategoryName>Automotive Expenses</localizedCategoryName>
+        </txnCategory>
+        <displayDate>
+          <transactionDate>Jul 01</transactionDate>
+          <txnDisplayDate>Jul 1,2017</txnDisplayDate>
+        </displayDate>
+        <transactionBaseType>credit</transactionBaseType>
+        <predicatedBlance>
+          <currencyCode>USD</currencyCode>
+          <amount>302</amount>
+        </predicatedBlance>
+      </projectedTxnView>
+      <projectedTxnView>
+        <account>
+          <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+          <itemAccountId>1111671749</itemAccountId>
+          <accountNumber>xxxx1234</accountNumber>
+        </account>
+        <txnAmount>
+          <currencyCode>USD</currencyCode>
+          <amount>1000</amount>
+        </txnAmount>
+        <categorizationKeyword>Test0</categorizationKeyword>
+        <txnCategory>
+          <categoryName>Automotive Expenses</categoryName>
+          <categoryTypeId>3</categoryTypeId>
+          <categoryLevelId>3</categoryLevelId>
+          <localizedCategoryName>Automotive Expenses</localizedCategoryName>
+        </txnCategory>
+        <displayDate>
+          <transactionDate>Jul 01</transactionDate>
+          <txnDisplayDate>Jul 1,2017</txnDisplayDate>
+        </displayDate>
+        <transactionBaseType>credit</transactionBaseType>
+        <predicatedBlance>
+          <currencyCode>USD</currencyCode>
+          <amount>-145.21</amount>
+        </predicatedBlance>
+      </projectedTxnView>
+    </dateWiseProjectedTxns>
+    <dateWiseProjectedTxns>
+      <date>Sunday, JUL 02</date>
+      <daysLeft>1 days </daysLeft>
+      <projectedTxnView>
+        <account>
+          <accountName>xxx4566ACCxx3547</accountName>
+          <itemAccountId>1111671750</itemAccountId>
+          <accountNumber>xxxx1235</accountNumber>
+        </account>
+        <txnAmount>
+          <currencyCode>USD</currencyCode>
+          <amount>2000000</amount>
+        </txnAmount>
+        <categorizationKeyword>Test2</categorizationKeyword>
+        <txnCategory>
+          <categoryLevelId>3</categoryLevelId>
+        </txnCategory>
+        <displayDate>
+          <transactionDate>Jul 02</transactionDate>
+          <txnDisplayDate>Jul 2,2017</txnDisplayDate>
+        </displayDate>
+        <transactionBaseType>credit</transactionBaseType>
+      </projectedTxnView>
+      <projectedTxnView>
+        <account>
+          <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+          <itemAccountId>1111671749</itemAccountId>
+          <accountNumber>xxxx1234</accountNumber>
+        </account>
+        <txnAmount>
+          <currencyCode>USD</currencyCode>
+          <amount>2000000</amount>
+        </txnAmount>
+        <categorizationKeyword>Test2</categorizationKeyword>
+        <txnCategory>
+          <categoryLevelId>3</categoryLevelId>
+        </txnCategory>
+        <displayDate>
+          <transactionDate>Jul 02</transactionDate>
+          <txnDisplayDate>Jul 2,2017</txnDisplayDate>
+        </displayDate>
+        <transactionBaseType>credit</transactionBaseType>
+      </projectedTxnView>
+      <projectedTxnView>
+        <account>
+          <accountName>xxx4566ACCxx3547</accountName>
+          <itemAccountId>1111671750</itemAccountId>
+          <accountNumber>xxxx1235</accountNumber>
+        </account>
+        <txnAmount>
+          <currencyCode>USD</currencyCode>
+          <amount>1600</amount>
+        </txnAmount>
+        <categorizationKeyword>This is text</categorizationKeyword>
+        <txnCategory>
+          <categoryLevelId>3</categoryLevelId>
+        </txnCategory>
+        <displayDate>
+          <transactionDate>Jul 02</transactionDate>
+          <txnDisplayDate>Jul 2,2017</txnDisplayDate>
+        </displayDate>
+        <transactionBaseType>debit</transactionBaseType>
+      </projectedTxnView>
+      <projectedTxnView>
+        <account>
+          <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+          <itemAccountId>1111671749</itemAccountId>
+          <accountNumber>xxxx1234</accountNumber>
+        </account>
+        <txnAmount>
+          <currencyCode>USD</currencyCode>
+          <amount>1600</amount>
+        </txnAmount>
+        <categorizationKeyword>This is text</categorizationKeyword>
+        <txnCategory>
+          <categoryLevelId>3</categoryLevelId>
+        </txnCategory>
+        <displayDate>
+          <transactionDate>Jul 02</transactionDate>
+          <txnDisplayDate>Jul 2,2017</txnDisplayDate>
+        </displayDate>
+        <transactionBaseType>debit</transactionBaseType>
+      </projectedTxnView>
+      <projectedTxnView>
+        <account>
+          <accountName>xxx4566ACCxx3547</accountName>
+          <itemAccountId>1111671750</itemAccountId>
+          <accountNumber>xxxx1235</accountNumber>
+        </account>
+        <txnAmount>
+          <currencyCode>USD</currencyCode>
+          <amount>1200</amount>
+        </txnAmount>
+        <categorizationKeyword>This is Kartik</categorizationKeyword>
+        <txnCategory>
+          <categoryLevelId>3</categoryLevelId>
+        </txnCategory>
+        <displayDate>
+          <transactionDate>Jul 02</transactionDate>
+          <txnDisplayDate>Jul 2,2017</txnDisplayDate>
+        </displayDate>
+        <transactionBaseType>debit</transactionBaseType>
+      </projectedTxnView>
+      <projectedTxnView>
+        <account>
+          <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+          <itemAccountId>1111671749</itemAccountId>
+          <accountNumber>xxxx1234</accountNumber>
+        </account>
+        <txnAmount>
+          <currencyCode>USD</currencyCode>
+          <amount>1200</amount>
+        </txnAmount>
+        <categorizationKeyword>This is Kartik</categorizationKeyword>
+        <txnCategory>
+          <categoryLevelId>3</categoryLevelId>
+        </txnCategory>
+        <displayDate>
+          <transactionDate>Jul 02</transactionDate>
+          <txnDisplayDate>Jul 2,2017</txnDisplayDate>
+        </displayDate>
+        <transactionBaseType>debit</transactionBaseType>
+      </projectedTxnView>
+      <projectedTxnView>
+        <account>
+          <accountName>xxx4566ACCxx3547</accountName>
+          <itemAccountId>1111671750</itemAccountId>
+          <accountNumber>xxxx1235</accountNumber>
+        </account>
+        <txnAmount>
+          <currencyCode>USD</currencyCode>
+          <amount>1000</amount>
+        </txnAmount>
+        <categorizationKeyword>Test3</categorizationKeyword>
+        <txnCategory>
+          <categoryName>Education</categoryName>
+          <categoryTypeId>3</categoryTypeId>
+          <categoryLevelId>3</categoryLevelId>
+          <localizedCategoryName>Education</localizedCategoryName>
+        </txnCategory>
+        <displayDate>
+          <transactionDate>Jul 02</transactionDate>
+          <txnDisplayDate>Jul 2,2017</txnDisplayDate>
+        </displayDate>
+        <transactionBaseType>credit</transactionBaseType>
+      </projectedTxnView>
+      <projectedTxnView>
+        <account>
+          <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+          <itemAccountId>1111671749</itemAccountId>
+          <accountNumber>xxxx1234</accountNumber>
+        </account>
+        <txnAmount>
+          <currencyCode>USD</currencyCode>
+          <amount>1000</amount>
+        </txnAmount>
+        <categorizationKeyword>Test3</categorizationKeyword>
+        <txnCategory>
+          <categoryName>Education</categoryName>
+          <categoryTypeId>3</categoryTypeId>
+          <categoryLevelId>3</categoryLevelId>
+          <localizedCategoryName>Education</localizedCategoryName>
+        </txnCategory>
+        <displayDate>
+          <transactionDate>Jul 02</transactionDate>
+          <txnDisplayDate>Jul 2,2017</txnDisplayDate>
+        </displayDate>
+        <transactionBaseType>credit</transactionBaseType>
+      </projectedTxnView>
+    </dateWiseProjectedTxns>
+    <dateWiseProjectedTxns>
+      <date>Wednesday, JUL 05</date>
+      <daysLeft>4 days </daysLeft>
+      <projectedTxnView>
+        <account>
+          <accountName>xxx4566ACCxx3547</accountName>
+          <itemAccountId>1111671750</itemAccountId>
+          <accountNumber>xxxx1235</accountNumber>
+        </account>
+        <txnAmount>
+          <currencyCode>USD</currencyCode>
+          <amount>23000000000000</amount>
+        </txnAmount>
+        <categorizationKeyword>This is Mandal</categorizationKeyword>
+        <txnCategory>
+          <categoryName>Education</categoryName>
+          <categoryTypeId>3</categoryTypeId>
+          <categoryLevelId>3</categoryLevelId>
+          <localizedCategoryName>Education</localizedCategoryName>
+        </txnCategory>
+        <displayDate>
+          <transactionDate>Jul 05</transactionDate>
+          <txnDisplayDate>Jul 5,2017</txnDisplayDate>
+        </displayDate>
+        <transactionBaseType>debit</transactionBaseType>
+        <predicatedBlance>
+          <currencyCode>USD</currencyCode>
+          <amount>22999998002102</amount>
+        </predicatedBlance>
+      </projectedTxnView>
+      <projectedTxnView>
+        <account>
+          <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+          <itemAccountId>1111671749</itemAccountId>
+          <accountNumber>xxxx1234</accountNumber>
+        </account>
+        <txnAmount>
+          <currencyCode>USD</currencyCode>
+          <amount>23000000000000</amount>
+        </txnAmount>
+        <categorizationKeyword>This is Mandal</categorizationKeyword>
+        <txnCategory>
+          <categoryName>Education</categoryName>
+          <categoryTypeId>3</categoryTypeId>
+          <categoryLevelId>3</categoryLevelId>
+          <localizedCategoryName>Education</localizedCategoryName>
+        </txnCategory>
+        <displayDate>
+          <transactionDate>Jul 05</transactionDate>
+          <txnDisplayDate>Jul 5,2017</txnDisplayDate>
+        </displayDate>
+        <transactionBaseType>debit</transactionBaseType>
+        <predicatedBlance>
+          <currencyCode>USD</currencyCode>
+          <amount>-22999998001945.21875</amount>
+        </predicatedBlance>
+      </projectedTxnView>
+    </dateWiseProjectedTxns>
+    <totalEvent>1</totalEvent>
+  </futureFmcSnapshot>
+  <!--  <siteErrors>
+    <siteError>
+      <siteAccountId>12510536</siteAccountId>
+      <defaultDisplayName>DagBank</defaultDisplayName>
+      <siteId>8995</siteId>
+    </siteError>
+    <siteError>
+      <siteAccountId>12510537</siteAccountId>
+      <defaultDisplayName>DagCreditcard</defaultDisplayName>
+      <siteId>8998</siteId>
+    </siteError>
+  </siteErrors>-->
+  <pastFmcSnapshot>
+    <fromDate>Jun 01</fromDate>
+    <toDate>Jun 30</toDate>
+    <dayCount>7</dayCount>
+    <txnDataCategories>
+		<txnCategoryTypeId>3</txnCategoryTypeId>
+<isHighLevelCategoryResponse>true</isHighLevelCategoryResponse>
+		
+<txnDataCategorie>
+		
+</txnDataCategorie>
+<totalAmount>0.00</totalAmount>
+<currencyCode>USD</currencyCode></txnDataCategories>
+    <expenseTxnView>
+      <account>
+        <accountName>xxx4566ACCxx3547</accountName>
+        <itemAccountId>1111671750</itemAccountId>
+        <accountNumber>xxxx1235</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>2000</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Automotive Expenses</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Automotive Expenses</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>cleared</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>6</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 27</transactionDate>
+        <txnDisplayDate>Jun 27,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>Test6</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>2000</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Automotive Expenses</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Automotive Expenses</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>cleared</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>6</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 27</transactionDate>
+        <txnDisplayDate>Jun 27,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>Test6</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxx4566ACCxx3547</accountName>
+        <itemAccountId>1111671750</itemAccountId>
+        <accountNumber>xxxx1235</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>1000</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Automotive Expenses</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Automotive Expenses</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>cleared</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>6</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 27</transactionDate>
+        <txnDisplayDate>Jun 27,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>Test4</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>1000</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Automotive Expenses</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Automotive Expenses</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>cleared</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>6</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 27</transactionDate>
+        <txnDisplayDate>Jun 27,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>Test4</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxx4566ACCxx3547</accountName>
+        <itemAccountId>1111671750</itemAccountId>
+        <accountNumber>xxxx1235</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>500</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Automotive Expenses</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Automotive Expenses</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>cleared</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>6</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 27</transactionDate>
+        <txnDisplayDate>Jun 27,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>Test5</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>500</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Automotive Expenses</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Automotive Expenses</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>cleared</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>6</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 27</transactionDate>
+        <txnDisplayDate>Jun 27,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>Test5</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Uncategorized</categoryName>
+        <categoryTypeId>1</categoryTypeId>
+        <localizedCategoryName>Uncategorized</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>DELAWARE RETAIL PYT</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Healthcare/Medical</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Healthcare/Medical</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>PHARMACIES AFFILIEES</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Restaurants/Dining</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Restaurants/Dining</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>ESSENTIAL CATERING REPAIRS</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Uncategorized</categoryName>
+        <categoryTypeId>1</categoryTypeId>
+        <localizedCategoryName>Uncategorized</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>AGRIMI PTY LTD</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Education</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Education</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>KENNEBECASIS VALLEY HIGH SCHOOL</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Insurance</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Insurance</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>NORWICH UNION INSURANCE</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Education</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Education</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>CENTER FOR URBAN EDUCATION</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Uncategorized</categoryName>
+        <categoryTypeId>1</categoryTypeId>
+        <localizedCategoryName>Uncategorized</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>CHARTERED ACCOUNTANTS INSTITUTE</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Restaurants/Dining</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Restaurants/Dining</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>REAL PIZZA BARS</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Uncategorized</categoryName>
+        <categoryTypeId>1</categoryTypeId>
+        <localizedCategoryName>Uncategorized</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>DICOSMO ASSOCIATES</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Education</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Education</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>DUNDEE METAL DESIGNS</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Uncategorized</categoryName>
+        <categoryTypeId>1</categoryTypeId>
+        <localizedCategoryName>Uncategorized</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>CBD PHYSIOTHERAPY</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Travel</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Travel</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>SHIP INN SOUTHBANK</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Groceries</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Groceries</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>COMPUTER STOP SHOP INTERNET</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Uncategorized</categoryName>
+        <categoryTypeId>1</categoryTypeId>
+        <localizedCategoryName>Uncategorized</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>WILLIS COPY DESIGN</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Restaurants/Dining</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Restaurants/Dining</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>CONEY ISLAND ICECREAM</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Uncategorized</categoryName>
+        <categoryTypeId>1</categoryTypeId>
+        <localizedCategoryName>Uncategorized</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>WOLLIE EQUIPMENT</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Uncategorized</categoryName>
+        <categoryTypeId>1</categoryTypeId>
+        <localizedCategoryName>Uncategorized</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>ANDREW BEVERY</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Personal Care</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Personal Care</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>BARBER BROTHERS</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Uncategorized</categoryName>
+        <categoryTypeId>1</categoryTypeId>
+        <localizedCategoryName>Uncategorized</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>COMPUCETERA</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Restaurants/Dining</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Restaurants/Dining</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>TASTE OF INDIA REST</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Uncategorized</categoryName>
+        <categoryTypeId>1</categoryTypeId>
+        <localizedCategoryName>Uncategorized</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>COMMUNITY CORPORATION HIGHPOINT</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Uncategorized</categoryName>
+        <categoryTypeId>1</categoryTypeId>
+        <localizedCategoryName>Uncategorized</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>SS METAL AGILITY</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Healthcare/Medical</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Healthcare/Medical</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>WALGREENS PHARMACIES</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Restaurants/Dining</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Restaurants/Dining</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>MCDONALDS FREIGHT</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Hobbies</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Hobbies</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>GASCOYNE PHOTOGRAPHICS &amp; COMPUTER SERVICE</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Uncategorized</categoryName>
+        <categoryTypeId>1</categoryTypeId>
+        <localizedCategoryName>Uncategorized</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>PRINTWAND PTY</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Taxes</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Taxes</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>PAN-PACIFIC REAL ESTATE DEVELOPMENT</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Home Maintenance</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Home Maintenance</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>CATERING &amp; CLEANING CONSULTANTS</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Restaurants/Dining</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Restaurants/Dining</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>SUSHI MACHINES</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Healthcare/Medical</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Healthcare/Medical</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>PASSAIC GENERAL HOSPITAL</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Uncategorized</categoryName>
+        <categoryTypeId>1</categoryTypeId>
+        <localizedCategoryName>Uncategorized</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>AGENCY FOR CREATIVE EVENTS</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Automotive Expenses</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Automotive Expenses</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>ARIEL AUTOMOTIVE</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Travel</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Travel</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>HUNTERS COUNTRY LODGE</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Cable/Satellite Services</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Cable/Satellite Services</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>SUNCOAST CLOTHING COMPANY</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Groceries</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Groceries</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>GOLDEN HARVEST CONTRACTING</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Insurance</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Insurance</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>AMERIPRISE BANK</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Clothing/Shoes</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Clothing/Shoes</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>99CENTS CLOTHES</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Uncategorized</categoryName>
+        <categoryTypeId>1</categoryTypeId>
+        <localizedCategoryName>Uncategorized</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>ARCHITECTS EAT PTY</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Business Miscellaneous</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Business Miscellaneous</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>ASHAR REALTORS</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Business Miscellaneous</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Business Miscellaneous</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>CUMINS MACHINERY</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Groceries</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Groceries</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>GLOBAL BEVERAGES</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Personal Care</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Personal Care</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>HALO SALON</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Uncategorized</categoryName>
+        <categoryTypeId>1</categoryTypeId>
+        <localizedCategoryName>Uncategorized</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>ACCES</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Charitable Giving</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Charitable Giving</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>GGWO DONATIONS</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Personal Care</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Personal Care</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>NAIL SPA</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Healthcare/Medical</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Healthcare/Medical</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>YORK HOSPITAL</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Cable/Satellite Services</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Cable/Satellite Services</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>ASPEN MANUFACTURING</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Uncategorized</categoryName>
+        <categoryTypeId>1</categoryTypeId>
+        <localizedCategoryName>Uncategorized</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>WHOLESALE APPLIANCES COAST</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Uncategorized</categoryName>
+        <categoryTypeId>1</categoryTypeId>
+        <localizedCategoryName>Uncategorized</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>LEGAL GRIND</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Home Maintenance</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Home Maintenance</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>PROTECH MAINTENANCE</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Uncategorized</categoryName>
+        <categoryTypeId>1</categoryTypeId>
+        <localizedCategoryName>Uncategorized</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>P AGRINIO</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Education</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Education</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>STJOHN'S INTERNATIONAL SCHOOL</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Insurance</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Insurance</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>GENERAL INSURANCE ECHELON</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Groceries</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Groceries</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>CHICAGO FOOD EDUCATORS</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Restaurants/Dining</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Restaurants/Dining</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>BENS RESTAURANT GROUP ACCOUNTING</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Restaurants/Dining</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Restaurants/Dining</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>INSOMNIA COFFEE BARS</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Charitable Giving</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Charitable Giving</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>ALBERTA FENCING ASSOCIATION</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Uncategorized</categoryName>
+        <categoryTypeId>1</categoryTypeId>
+        <localizedCategoryName>Uncategorized</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>EVANS COMMUNITY</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Uncategorized</categoryName>
+        <categoryTypeId>1</categoryTypeId>
+        <localizedCategoryName>Uncategorized</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>KF SCRAP METALS</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Uncategorized</categoryName>
+        <categoryTypeId>1</categoryTypeId>
+        <localizedCategoryName>Uncategorized</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>NURSE SERVICES</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Postage and Shipping</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Postage and Shipping</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>NEWPORT SHIPPING</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Electronics</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Electronics</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>JTKD COMPUTER</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Uncategorized</categoryName>
+        <categoryTypeId>1</categoryTypeId>
+        <localizedCategoryName>Uncategorized</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>PRINTOFAST</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Taxes</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Taxes</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>COASTAL REAL ESTATE</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Securities Trades</categoryName>
+        <categoryTypeId>4</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Securities Trades</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>KJ STRATEGIC INVESTMENT</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Restaurants/Dining</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Restaurants/Dining</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>COFFEE MACHINE SERVICE</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Healthcare/Medical</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Healthcare/Medical</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>WINCOSIN CHILDREN'S HOSPITAL</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Uncategorized</categoryName>
+        <categoryTypeId>1</categoryTypeId>
+        <localizedCategoryName>Uncategorized</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>GOVERNMENT OF PEI</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Automotive Expenses</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Automotive Expenses</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>GALAXY REPAIRS</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Travel</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Travel</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>GINGER HOTEL</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>General Merchandise</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>General Merchandise</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>CLOTHES SHOPPING MEN'S</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Automotive Expenses</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Automotive Expenses</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>HOME REPAIRS JERRY</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Home Improvement</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Home Improvement</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>CENT BANK HOME FINANCE</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Clothing/Shoes</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Clothing/Shoes</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>SHOE STORE BANISTER</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Home Improvement</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Home Improvement</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>HOME RENOVATION GLOBAL FRANCHISE</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Taxes</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Taxes</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>FIRST AMERICAN REAL ESTATE</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Automotive Expenses</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Automotive Expenses</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>HONDA AUTO PARTS PURCHASE</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Uncategorized</categoryName>
+        <categoryTypeId>1</categoryTypeId>
+        <localizedCategoryName>Uncategorized</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>BATMAN AVE</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Personal Care</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Personal Care</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>SPA &amp; SALON</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Charitable Giving</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Charitable Giving</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>CHARITY SISTERS OF CHARITY HOSPITAL</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Electronics</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Electronics</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>COMPUTER PURCHASE AS COMP</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Charitable Giving</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Charitable Giving</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>SISTERS OF CHARITY DONATION</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Personal Care</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Personal Care</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>AVENUE SALON TREATMENT</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Gifts</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Gifts</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>ARCHIES GIFT SHOP</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Uncategorized</categoryName>
+        <categoryTypeId>1</categoryTypeId>
+        <localizedCategoryName>Uncategorized</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>SALARY FROM YODLEE</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Healthcare/Medical</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Healthcare/Medical</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>FAMILY DENTISTRY</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>General Merchandise</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>General Merchandise</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>FLIPKART PURCHASE</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Restaurants/Dining</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Restaurants/Dining</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>CINNAMON CUISINE LUNCH</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Healthcare/Medical</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Healthcare/Medical</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>QUEENSWAY CARLETON HOSPITAL</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Restaurants/Dining</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Restaurants/Dining</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>OZONE PIZZA</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Travel</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Travel</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>HOTEL BOOKING</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Restaurants/Dining</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Restaurants/Dining</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>COFFEE DAY LIBERTY</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Healthcare/Medical</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Healthcare/Medical</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>PHYSICIAN VISIT APOLLO</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Charitable Giving</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Charitable Giving</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>VAAD CHARITY</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Healthcare/Medical</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Healthcare/Medical</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>MEDICINES ASIAN MEDICAL</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Child/Dependent Expenses</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Child/Dependent Expenses</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>CHILD DAY CARE DEB'S</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Home Improvement</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Home Improvement</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>FURNITURE SHOPPING LA-Z-BOY</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Travel</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Travel</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>TRAVEL MALAYSIA AIR</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Restaurants/Dining</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Restaurants/Dining</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>KFC PIZZA</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Gasoline/Fuel</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Gasoline/Fuel</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>SHELL FUEL BUNK</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>ATM/Cash Withdrawals</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>ATM/Cash Withdrawals</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>ATM WITHDRAWAL</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Restaurants/Dining</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Restaurants/Dining</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>I SCREAM ICE CREAM</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>General Merchandise</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>General Merchandise</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>BIG BAZAAR</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Restaurants/Dining</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Restaurants/Dining</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>DOMINOS</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Utilities</categoryName>
+        <categoryTypeId>3</categoryTypeId>
+        <categoryLevelId>3</categoryLevelId>
+        <localizedCategoryName>Utilities</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>ACH Withdrawal-Debit xxxxxxxx00 - PPD  Nicor Gas        PAYMENT</transactionDescription>
+    </expenseTxnView>
+    <expenseTxnView>
+      <account>
+        <accountName>xxxxxxxxxxxxxxx2432ACC</accountName>
+        <itemAccountId>1111671749</itemAccountId>
+        <accountNumber>xxxx1234</accountNumber>
+      </account>
+      <expenseAmount>
+        <currencyCode>USD</currencyCode>
+        <amount>59</amount>
+      </expenseAmount>
+      <transactionBaseType>debit</transactionBaseType>
+      <txnCategory>
+        <categoryName>Uncategorized</categoryName>
+        <categoryTypeId>1</categoryTypeId>
+        <localizedCategoryName>Uncategorized</localizedCategoryName>
+      </txnCategory>
+      <statusdescription>posted</statusdescription>
+      <statusId>1</statusId>
+      <origStatusId>1</origStatusId>
+      <displayDate>
+        <transactionDate>Jun 29</transactionDate>
+        <txnDisplayDate>Jun 29,2017</txnDisplayDate>
+      </displayDate>
+      <transactionDescription>Card Debit xxxxxxxx00 - GB  GREEKBILL INC          xxx xxx3816    CA</transactionDescription>
+    </expenseTxnView>
+  </pastFmcSnapshot>
+</financialSnapshot>
+        </body>
+    </message>
+</AlertMessage>

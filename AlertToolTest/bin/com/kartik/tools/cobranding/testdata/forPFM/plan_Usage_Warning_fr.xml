@@ -1,0 +1,31 @@
+<AlertMessage>
+  <Profile>
+    <AlertRecieverProfile>
+      <USERNAME>loginName</USERNAME>
+      <ADDRESS_1>3600 Bridge Parkway</ADDRESS_1>
+      <ADDRESS_2>Suite 200</ADDRESS_2>
+      <FIRST_NAME>FIRST_NAME</FIRST_NAME>
+      <MIDDLE_INITIAL>MIDDLE_INITIAL</MIDDLE_INITIAL>
+      <LAST_NAME>LAST_NAME</LAST_NAME>
+      <CITY>Redwood City</CITY>
+      <COUNTRY>USA</COUNTRY>
+      <EMAIL_ADDRESS>testuser@yodleetest.com</EMAIL_ADDRESS>
+      <currencySymbol>{com.yodlee.core.currency.USD.symbol}</currencySymbol>
+      <dateFormat>{com.yodlee.core.dateFormat.default}</dateFormat>
+      <cobrandId>10000004</cobrandId>
+      <decimalSeparator>{com.yodlee.core.decimalSeparator.default}</decimalSeparator>
+      <groupingSeparator>{com.yodlee.core.groupingSeparator.default}</groupingSeparator>
+      <groupPattern>{com.yodlee.core.groupPattern.default}</groupPattern>
+      <locale>US_en</locale>
+      <com.yodlee.alert.email.advancecontent>true</com.yodlee.alert.email.advancecontent>
+    </AlertRecieverProfile>
+  </Profile>
+  <message><header><messageId>16014917</messageId>
+<timestamp>2009-02-11T09:22:40Z</timestamp>
+<expiry>2009-02-18T09:22:40Z</expiry>
+<messageType>PLAN_USAGE_WARNING</messageType>
+<messageFormat>DATA</messageFormat>
+<retry>true</retry>
+<locale>en_US</locale>
+<destinationList><destination><destinationId>7</destinationId><destinationType>xml</destinationType><address>bprakash@yodlee.com</address></destination></destinationList></header><body><planUsageWarningData><user><cobrandId>99</cobrandId><userId>10136153</userId><loginName>b802bld135</loginName></user><item><itemId>10420151</itemId><contentServiceId>4764</contentServiceId><contentServiceCategory>minutes</contentServiceCategory><contentServiceName>TestSite for Minutes</contentServiceName><custom>false</custom><itemNickname/><itemStatus>ACCESS_VERIFIED</itemStatus><lastSuccessfulAccessTimestamp>2009-02-11T09:22:04Z</lastSuccessfulAccessTimestamp><lastAccessAttemptTimestamp>2009-02-11T09:22:04Z</lastAccessAttemptTimestamp><lastAccessAttemptStatusCode>0</lastAccessAttemptStatusCode></item><itemAccount><accountId>11580914</accountId><accountName>junk9</accountName><accountNumber>XXXXXXX3JS9</accountNumber><accountType>LIABILITY</accountType><accountNickName/></itemAccount><planUsage><description>yodleeAccount</description><limit>50</limit><used>40</used><remaining>25</remaining></planUsage><threshold>35</threshold></planUsageWarningData></body></message>
+  </AlertMessage>

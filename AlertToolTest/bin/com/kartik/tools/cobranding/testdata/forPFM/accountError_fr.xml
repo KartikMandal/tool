@@ -1,0 +1,74 @@
+<AlertMessage>
+  <Profile>
+    <AlertRecieverProfile>
+      <USERNAME>loginName</USERNAME>
+      <ADDRESS_1>3600 Bridge Parkway</ADDRESS_1>
+      <ADDRESS_2>Suite 200</ADDRESS_2>
+      <FIRST_NAME>FIRST_NAME</FIRST_NAME>
+      <MIDDLE_INITIAL>MIDDLE_INITIAL</MIDDLE_INITIAL>
+      <LAST_NAME>LAST_NAME</LAST_NAME>
+      <CITY>Redwood City</CITY>
+      <COUNTRY>USA</COUNTRY>
+      <EMAIL_ADDRESS>testuser@yodleetest.com</EMAIL_ADDRESS>
+      <currencySymbol>{com.yodlee.core.currency.USD.symbol}</currencySymbol>
+      <dateFormat>{com.yodlee.core.dateFormat.default}</dateFormat>
+      <cobrandId>10000004</cobrandId>
+      <decimalSeparator>{com.yodlee.core.decimalSeparator.default}</decimalSeparator>
+      <groupingSeparator>{com.yodlee.core.groupingSeparator.default}</groupingSeparator>
+      <groupPattern>{com.yodlee.core.groupPattern.default}</groupPattern>
+      <locale>US_en</locale>
+      <com.yodlee.alert.email.advancecontent>true</com.yodlee.alert.email.advancecontent>
+    </AlertRecieverProfile>
+  </Profile>
+<message>
+<header>
+<messageId>86314</messageId>
+<timestamp>2009-10-14T06:43:14Z</timestamp>
+<expiry>2009-10-21T06:43:14Z</expiry>
+<messageType>ITEM_VERIFICATION</messageType>
+<messageFormat>DATA</messageFormat>
+<retry>false</retry>
+<locale>en_US</locale>
+<destinationList>
+<destination>
+<destinationId>2</destinationId>
+<destinationType>xml</destinationType>
+<address>snataraj@yodlee.com</address>
+</destination>
+</destinationList>
+</header>
+<body>
+<itemVerificationData>
+<user>
+<cobrandId>99</cobrandId>
+<userId>11404085</userId>
+<loginName>siva1255501973136</loginName>
+</user>
+<item>
+<itemId>101411485</itemId>
+<contentServiceId>9978</contentServiceId>
+<contentServiceCategory>bank</contentServiceCategory>
+<contentServiceName>Custom Personal Property</contentServiceName>
+<custom>false</custom>
+<itemStatus>ACCESS_NOT_VERIFIED</itemStatus>
+<lastSuccessfulAccessTimestamp>2009-10-14T06:41:58Z</lastSuccessfulAccessTimestamp>
+<lastAccessAttemptTimestamp>2009-10-14T06:42:23Z</lastAccessAttemptTimestamp>
+<lastAccessAttemptStatusCode>402</lastAccessAttemptStatusCode>
+</item>
+<itemAccount>
+<accountId>3215989</accountId>
+<accountName>Custom Bank Name (itemId - 101411485)</accountName>
+<accountNumber>Custom Bank Number (itemId -101411485)</accountNumber>
+<accountType>ASSET</accountType>
+<nickName>test</nickName>
+</itemAccount>
+<itemAccessStatusType>LOGIN_FAILURE</itemAccessStatusType>
+<hasScheduledPayments>false</hasScheduledPayments>
+</itemVerificationData>
+<shortText>Dear siva1255501973136,
+Your password to Custom Personal Property is invalid. Please login
+and update your password.
+</shortText>
+</body>
+</message>
+</AlertMessage>

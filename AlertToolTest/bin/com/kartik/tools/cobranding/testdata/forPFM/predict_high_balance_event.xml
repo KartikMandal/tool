@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results>
+   <auxinfo>
+      <cobrandId>$$COBRAND_ID$$</cobrandId>
+        <database_id>$$DB_NAME$$</database_id>
+        <transaction_id>$$TXN_ID$$</transaction_id>
+        <servertype>I</servertype>
+   </auxinfo>
+   <userList>
+      <user>
+         <itemList>
+            <item id="$$ITEM_ID$$">
+				<auxinfo>
+                        <cobrandId>$$COBRAND_ID$$</cobrandId>
+                        <database_id>$$DB_NAME$$</database_id>
+                        <transaction_id>$$TXN_ID$$</transaction_id>
+                        <servertype>I</servertype>
+                        <messageUse>instant</messageUse>
+                 </auxinfo>
+               <tag>credits</tag>
+               <status>0</status>
+               <data>
+                  <site>
+                     <cardAccount acctType="unknown" uniqueId="-1872892957">
+                        <company>VISA</company>
+                        <accountName>Account name 10</accountName>
+                        <accountNicknameAtSrcSite>nick name 10</accountNicknameAtSrcSite>
+                        <accountHolder>Account Holder 1</accountHolder>
+                        <accountNumber>Account Number 10</accountNumber>
+                        <accountStatus>AcTive</accountStatus>
+                        <asOf localFormat="MM/dd/yy">2012-06-06T04:00:00</asOf>
+                        <lastPaymentDate localFormat="MM/dd/yy">2012-06-06T04:00:00</lastPaymentDate>
+                        <apr>14.5</apr>
+                        <aprType>aprType</aprType>
+                        <dueDate localFormat="MM/dd/yy">2012-06-06T04:00:00</dueDate>
+                        <balance balType="amountDue">
+                           <curAmt curCode="USD">100.0</curAmt>
+                        </balance>
+                        <balance balType="minPayment">
+                           <curAmt curCode="USD">100.0</curAmt>
+                        </balance>
+                        <balance balType="lastPayment">
+                           <curAmt curCode="USD">100.0</curAmt>
+                        </balance>
+                        <balance balType="runningBalance">
+                           <curAmt curCode="USD">102.0</curAmt>
+                        </balance>
+                        <balance balType="newCharges">
+                           <curAmt curCode="USD">100.0</curAmt>
+                        </balance>
+                        <balance balType="payments">
+                           <curAmt curCode="USD">100.0</curAmt>
+                        </balance>
+                        <balance balType="adjustments">
+                           <curAmt curCode="USD">100.0</curAmt>
+                        </balance>
+                        <balance balType="adjustmentsPayments">
+                           <curAmt curCode="USD">100.0</curAmt>
+                        </balance>
+                        <balance balType="pendingCharges">
+                           <curAmt curCode="USD">100.0</curAmt>
+                        </balance>
+                        <balance balType="disputedAmount">
+                           <curAmt curCode="USD">100.0</curAmt>
+                        </balance>
+                        <balance balType="availableCredit">
+                           <curAmt curCode="USD">100.0</curAmt>
+                        </balance>
+                        <balance balType="availableCash">
+                           <curAmt curCode="USD">100.0</curAmt>
+                        </balance>
+                        <balance balType="totalCreditLine">
+                           <curAmt curCode="USD">100.0</curAmt>
+                        </balance>
+                        <balance balType="totalCashLimit">
+                           <curAmt curCode="USD">100.0</curAmt>
+                        </balance>
+                        <balance balType="interestPaidThisPeriod">
+                           <curAmt curCode="USD">100.0</curAmt>
+                        </balance>
+                        <balance balType="interestPaidYtd">
+                           <curAmt curCode="USD">100.0</curAmt>
+                        </balance>
+                        <cashApr>20.4</cashApr>
+                        <cashAPRType>cash apr type</cashAPRType>
+                        <oldAccountNumber>10929sjjdskllld19293</oldAccountNumber>
+                        <isPaperlessStatementEnabled>1</isPaperlessStatementEnabled>
+                        <autopayEnrollmentStatus>1</autopayEnrollmentStatus>
+                        <balanceTransferAPR>20.4</balanceTransferAPR>
+                        <balanceTransferAPRType>balTsrType</balanceTransferAPRType>
+                        <brandName>brandName</brandName>
+                        <cardStatementList>
+                           <cardStatement>
+                              <billingPeriodStart localFormat="MM/dd/yy">2012-06-08</billingPeriodStart>
+                              <billingPeriodEnd localFormat="MM/dd/yy">2012-06-08</billingPeriodEnd>
+                           </cardStatement>
+                        </cardStatementList>
+                        <transactionList>
+                           <transaction uniqueId="22222113" baseType="credit" type="dividendPayment" transactionStatus="posted">
+                              <transactionPostingOrder>0</transactionPostingOrder>
+                              <mcCode>MC CODE</mcCode>
+                              <description>tx description 20120604100</description>
+                              <naicsCode>TX ahdhkjdk</naicsCode>
+                              <transDate localFormat="MM/dd/yy">2012-06-06T04:00:00</transDate>
+                              <postDate localFormat="MM/dd/yy">2012-06-06T04:00:00</postDate>
+                              <sourceTransactionType>source tx type</sourceTransactionType>
+                              <amount curCode="USD">3000.00</amount>
+                              <transactionRunningBalance curCode="USD">100.0</transactionRunningBalance>
+                              <descriptionLine2>level2trx Data</descriptionLine2>
+                              <userDescription>user desc</userDescription>
+                           </transaction>
+                           <transaction uniqueId="22222114" baseType="credit" type="dividendPayment" transactionStatus="posted">
+                              <transactionPostingOrder>0</transactionPostingOrder>
+                              <mcCode>MC CODE</mcCode>
+                              <description>tx description 2214</description>
+                              <naicsCode>TX ahdhkjdk</naicsCode>
+                              <transDate localFormat="MM/dd/yy">2012-06-06T04:00:00</transDate>
+                              <postDate localFormat="MM/dd/yy">2012-06-06T04:00:00</postDate>
+                              <sourceTransactionType>source tx type</sourceTransactionType>
+                              <amount curCode="USD">3400.00</amount>
+                              <transactionRunningBalance curCode="USD">100.0</transactionRunningBalance>
+                              <descriptionLine2>level2trx Data</descriptionLine2>
+                              <userDescription>user desc</userDescription>
+                           </transaction>
+                           <transaction uniqueId="22222115" baseType="credit" type="dividendPayment" transactionStatus="posted">
+                              <transactionPostingOrder>0</transactionPostingOrder>
+                              <mcCode>MC CODE</mcCode>
+                              <description>tx description 2115</description>
+                              <naicsCode>TX ahdhkjdk</naicsCode>
+                              <transDate localFormat="MM/dd/yy">2012-06-06T04:00:00</transDate>
+                              <postDate localFormat="MM/dd/yy">2012-06-06T04:00:00</postDate>
+                              <sourceTransactionType>source tx type</sourceTransactionType>
+                              <amount curCode="USD">3500.00</amount>
+                              <transactionRunningBalance curCode="USD">100.0</transactionRunningBalance>
+                              <descriptionLine2>level2trx Data</descriptionLine2>
+                              <userDescription>user desc</userDescription>
+                           </transaction>
+                           <transaction uniqueId="22222116" baseType="credit" type="dividendPayment" transactionStatus="posted">
+                              <transactionPostingOrder>0</transactionPostingOrder>
+                              <mcCode>MC CODE</mcCode>
+                              <description>tx description 2216</description>
+                              <naicsCode>TX ahdhkjdk</naicsCode>
+                              <transDate localFormat="MM/dd/yy">2012-06-06T04:00:00</transDate>
+                              <postDate localFormat="MM/dd/yy">2012-06-06T04:00:00</postDate>
+                              <sourceTransactionType>source tx type</sourceTransactionType>
+                              <amount curCode="USD">3600.00</amount>
+                              <transactionRunningBalance curCode="USD">100.0</transactionRunningBalance>
+                              <descriptionLine2>level2trx Data</descriptionLine2>
+                              <userDescription>user desc</userDescription>
+                           </transaction>
+                        </transactionList>
+                     </cardAccount>
+                  </site>
+               </data>
+            </item>
+         </itemList>
+      </user>
+   </userList>
+</results>

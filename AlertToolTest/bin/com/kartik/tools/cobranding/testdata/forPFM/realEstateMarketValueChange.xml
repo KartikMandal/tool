@@ -1,0 +1,31 @@
+<AlertMessage>
+  <Profile>
+    <AlertRecieverProfile>
+      <USERNAME>loginName</USERNAME>
+      <ADDRESS_1>3600 Bridge Parkway</ADDRESS_1>
+      <ADDRESS_2>Suite 200</ADDRESS_2>
+      <FIRST_NAME>FIRST_NAME</FIRST_NAME>
+      <MIDDLE_INITIAL>MIDDLE_INITIAL</MIDDLE_INITIAL>
+      <LAST_NAME>LAST_NAME</LAST_NAME>
+      <CITY>Redwood City</CITY>
+      <COUNTRY>USA</COUNTRY>
+      <EMAIL_ADDRESS>testuser@yodleetest.com</EMAIL_ADDRESS>
+      <currencySymbol>{com.yodlee.core.currency.USD.symbol}</currencySymbol>
+      <dateFormat>{com.yodlee.core.dateFormat.default}</dateFormat>
+      <cobrandId>10000004</cobrandId>
+      <decimalSeparator>{com.yodlee.core.decimalSeparator.default}</decimalSeparator>
+      <groupingSeparator>{com.yodlee.core.groupingSeparator.default}</groupingSeparator>
+      <groupPattern>{com.yodlee.core.groupPattern.default}</groupPattern>
+      <locale>US_en</locale>
+      <com.yodlee.alert.email.advancecontent>true</com.yodlee.alert.email.advancecontent>
+    </AlertRecieverProfile>
+  </Profile>
+  <message><header><messageId>15962974</messageId>
+<timestamp>2009-02-10T07:18:41Z</timestamp>
+<expiry>2009-02-17T07:18:42Z</expiry>
+<messageType>REAL_ESTATE_MARKET_VALUE_CHANGE</messageType>
+<messageFormat>DATA</messageFormat>
+<retry>false</retry>
+<locale>en_US</locale>
+</header><body><realEstateMarketValueChangeAction><user><userId>10136153</userId><loginName>b802bld135</loginName></user><realEstateAccountData><contentServiceName>CustomAgent</contentServiceName><accountNickName>1</accountNickName><accountName>Home 1</accountName></realEstateAccountData><lastRefreshDate>2009-02-10</lastRefreshDate><thresholdPercentage><direction>+</direction><percentageChange>9900.0</percentageChange></thresholdPercentage><balance><currencyCode>INR</currencyCode><amount>1.2E7</amount></balance></realEstateMarketValueChangeAction></body></message>
+  </AlertMessage>

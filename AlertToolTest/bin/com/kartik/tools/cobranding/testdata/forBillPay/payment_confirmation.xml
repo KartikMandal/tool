@@ -1,0 +1,76 @@
+<AlertMessage>
+  <Profile>
+    <AlertRecieverProfile>
+      <USERNAME>loginName</USERNAME>
+      <ADDRESS_1>3600 Bridge Parkway</ADDRESS_1>
+      <ADDRESS_2>Suite 200</ADDRESS_1>
+      <FIRST_NAME>FIRST_NAME</FIRST_NAME>
+      <MIDDLE_INITIAL>MIDDLE_INITIAL</MIDDLE_INITIAL>
+      <LAST_NAME>LAST_NAME</LAST_NAME>
+      <CITY>Redwood City</CITY>
+      <COUNTRY>USA</COUNTRY>
+      <EMAIL_ADDRESS>testuser@yodleetest.com</EMAIL_ADDRESS>
+      <currencySymbol>{com.yodlee.core.currency.USD.symbol}</currencySymbol>
+      <dateFormat>{com.yodlee.core.dateFormat.default}</dateFormat>
+      <cobrandId>10000004</cobrandId>
+      <decimalSeparator>{com.yodlee.core.decimalSeparator.default}</decimalSeparator>
+      <groupingSeparator>{com.yodlee.core.groupingSeparator.default}</groupingSeparator>
+      <groupPattern>{com.yodlee.core.groupPattern.default}</groupPattern>
+      <locale>US_en</locale>
+      <com.yodlee.alert.email.advancecontent>true</com.yodlee.alert.email.advancecontent>
+    </AlertRecieverProfile>
+  </Profile>
+  <message>
+    <header>
+      <messageId>25770611</messageId>
+      <timestamp>2009-07-13T22:43:40Z</timestamp>
+      <expiry>2009-07-20T22:43:40Z</expiry>
+      <messageType>PAYMENT_COMPLETION</messageType>
+      <messageFormat>DATA</messageFormat>
+      <retry>false</retry>
+      <locale>en_US</locale>
+      <destinationList>
+        <destination>
+          <destinationId>11</destinationId>
+          <destinationType>xml</destinationType>
+          <address>testuser@yodlee.com</address>
+        </destination>
+      </destinationList>
+    </header>
+    <body>
+      <paymentCompletionData>
+        <user>
+          <cobrandId>10000004</cobrandId>
+          <userId>10109999</userId>
+          <loginName>testuser</loginName>
+        </user>
+        <payment>
+          <transactionId>AECT521111</transactionId>
+          <payee>
+            <payeeId>10201111</payeeId>
+            <itemAccountId>30591111</itemAccountId>
+            <payeeName>T-Mobile</payeeName>
+            <payeeDescription />
+            <payeeNickName />
+          </payee>
+          <status>PAYMENT_MADE</status>
+          <reasonCode>0</reasonCode>
+          <requestTimestamp>2009-07-13T15:41:38Z</requestTimestamp>
+          <completionTimestamp>
+          2009-07-13T15:43:32Z</completionTimestamp>
+          <paymentAmount>
+            <currencyCode>USD</currencyCode>
+            <amount>89.28</amount>
+          </paymentAmount>
+          <paymentMemo />
+        </payment>
+        <billPayPaymentAccountData>
+          <contentServiceName>Visa</contentServiceName>
+          <accountName />
+          <accountNickName>Wachovia</accountNickName>
+          <accountNumber>XXXXXXXXXXXX1111</accountNumber>
+        </billPayPaymentAccountData>
+      </paymentCompletionData>
+    </body>
+  </message>
+</AlertMessage>

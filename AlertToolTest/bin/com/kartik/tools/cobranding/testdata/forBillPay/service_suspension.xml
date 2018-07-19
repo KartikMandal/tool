@@ -1,0 +1,44 @@
+<AlertMessage>
+  <Profile>
+    <AlertRecieverProfile>
+      <USERNAME>loginName</USERNAME>
+      <ADDRESS_1>3600 Bridge Parkway</ADDRESS_1>
+      <ADDRESS_2>Suite 200</ADDRESS_1>
+      <FIRST_NAME>FIRST_NAME</FIRST_NAME>
+      <MIDDLE_INITIAL>MIDDLE_INITIAL</MIDDLE_INITIAL>
+      <LAST_NAME>LAST_NAME</LAST_NAME>
+      <CITY>Redwood City</CITY>
+      <COUNTRY>USA</COUNTRY>
+      <EMAIL_ADDRESS>testuser@yodleetest.com</EMAIL_ADDRESS>
+      <currencySymbol>{com.yodlee.core.currency.USD.symbol}</currencySymbol>
+      <dateFormat>{com.yodlee.core.dateFormat.default}</dateFormat>
+      <cobrandId>10000004</cobrandId>
+      <decimalSeparator>{com.yodlee.core.decimalSeparator.default}</decimalSeparator>
+      <groupingSeparator>{com.yodlee.core.groupingSeparator.default}</groupingSeparator>
+      <groupPattern>{com.yodlee.core.groupPattern.default}</groupPattern>
+      <locale>US_en</locale>
+      <com.yodlee.alert.email.advancecontent>true</com.yodlee.alert.email.advancecontent>
+    </AlertRecieverProfile>
+  </Profile>
+  <message>
+    <header>
+      <messageId>15719</messageId>
+      <timestamp>2009-08-21T05:39:02Z</timestamp>
+      <expiry>2009-08-28T05:39:02Z</expiry>
+      <messageType>SERVICE_CANCELLATION</messageType>
+      <messageFormat>DATA</messageFormat>
+      <retry>false</retry>
+      <locale>en_US</locale>
+    </header>
+    <body>
+      <cancellationData>
+        <user>
+          <userId>11380235</userId>
+          <loginName>test_user-26881</loginName>
+        </user>
+        <cancellationTimestamp>
+        2009-08-20T22:38:50Z</cancellationTimestamp>
+      </cancellationData>
+    </body>
+  </message>
+</AlertMessage>

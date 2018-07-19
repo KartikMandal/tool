@@ -1,0 +1,48 @@
+<AlertMessage>
+  <Profile>
+    <AlertRecieverProfile>
+      <USERNAME>loginName</USERNAME>
+      <ADDRESS_1>3600 Bridge Parkway</ADDRESS_1>
+      <ADDRESS_2>Suite 200</ADDRESS_1>
+      <FIRST_NAME>FIRST_NAME</FIRST_NAME>
+      <MIDDLE_INITIAL>MIDDLE_INITIAL</MIDDLE_INITIAL>
+      <LAST_NAME>LAST_NAME</LAST_NAME>
+      <CITY>Redwood City</CITY>
+      <COUNTRY>USA</COUNTRY>
+      <EMAIL_ADDRESS>testuser@yodleetest.com</EMAIL_ADDRESS>
+      <currencySymbol>{com.yodlee.core.currency.USD.symbol}</currencySymbol>
+      <dateFormat>{com.yodlee.core.dateFormat.default}</dateFormat>
+      <cobrandId>10000004</cobrandId>
+      <decimalSeparator>{com.yodlee.core.decimalSeparator.default}</decimalSeparator>
+      <groupingSeparator>{com.yodlee.core.groupingSeparator.default}</groupingSeparator>
+      <groupPattern>{com.yodlee.core.groupPattern.default}</groupPattern>
+      <locale>US_en</locale>
+      <com.yodlee.alert.email.advancecontent>true</com.yodlee.alert.email.advancecontent>
+    </AlertRecieverProfile>
+  </Profile>
+  <message>
+    <header>
+      <messageId>10008477</messageId>
+      <timestamp>2008-11-21T15:24:33Z</timestamp>
+      <expiry>2008-11-28T15:24:34Z</expiry>
+      <messageType>EBILL_PAYMENT_NOT_SCHEDULED</messageType>
+      <messageFormat>DATA</messageFormat>
+      <retry>false</retry>
+      <locale>en_US</locale>
+    </header>
+    <body>
+      <ebillPaymentData>
+        <user>
+          <userId>10008651</userId>
+          <loginName>b90bld60alerts</loginName>
+        </user>
+        <billerName>DIRECT MERCHANTS BANK</billerName>
+        <billAmount>
+          <currencyCode>USD</currencyCode>
+          <amount>2,105.00</amount>
+        </billAmount>
+        <dueDate>11/26/08</dueDate>
+      </ebillPaymentData>
+    </body>
+  </message>
+</AlertMessage>

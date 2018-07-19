@@ -1,0 +1,50 @@
+<AlertMessage>
+  <Profile>
+    <AlertRecieverProfile>
+      <USERNAME>loginName</USERNAME>
+      <ADDRESS_1>3600 Bridge Parkway</ADDRESS_1>
+      <ADDRESS_2>Suite 200</ADDRESS_1>
+      <FIRST_NAME>FIRST_NAME</FIRST_NAME>
+      <MIDDLE_INITIAL>MIDDLE_INITIAL</MIDDLE_INITIAL>
+      <LAST_NAME>LAST_NAME</LAST_NAME>
+      <CITY>Redwood City</CITY>
+      <COUNTRY>USA</COUNTRY>
+      <EMAIL_ADDRESS>testuser@yodleetest.com</EMAIL_ADDRESS>
+      <currencySymbol>{com.yodlee.core.currency.USD.symbol}</currencySymbol>
+      <dateFormat>{com.yodlee.core.dateFormat.default}</dateFormat>
+      <cobrandId>10000004</cobrandId>
+      <decimalSeparator>{com.yodlee.core.decimalSeparator.default}</decimalSeparator>
+      <groupingSeparator>{com.yodlee.core.groupingSeparator.default}</groupingSeparator>
+      <groupPattern>{com.yodlee.core.groupPattern.default}</groupPattern>
+      <locale>US_en</locale>
+      <com.yodlee.alert.email.advancecontent>true</com.yodlee.alert.email.advancecontent>
+    </AlertRecieverProfile>
+  </Profile>
+    <message>
+      <header>
+        <messageId>10427870</messageId>
+        <timestamp>2006-07-01T13:39:45Z</timestamp>
+        <expiry>2006-07-08T13:39:45Z</expiry>
+        <messageType>SERVICE_REGISTRATION</messageType>
+        <messageFormat>DATA</messageFormat>
+        <retry>false</retry>
+        <destinationList>
+          <destination>
+            <destinationId>5</destinationId>
+            <destinationType>xml</destinationType>
+            <address>vgovinda@yodlee.com</address>
+          </destination>
+        </destinationList>
+      </header>
+      <body>
+        <registrationData>
+          <user>
+            <userId>10017118</userId>
+            <loginName>vivek_bayana</loginName>
+          </user>
+          <registrationTimestamp>2009-07-01</registrationTimestamp>
+          <serviceType>1</serviceType>
+        </registrationData>
+      </body>
+    </message>
+</AlertMessage>

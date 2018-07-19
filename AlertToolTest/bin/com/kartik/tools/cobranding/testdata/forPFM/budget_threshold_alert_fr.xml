@@ -1,0 +1,64 @@
+<AlertMessage>
+  <Profile>
+    <AlertRecieverProfile>
+      <USERNAME>loginName</USERNAME>
+      <ADDRESS_1>3600 Bridge Parkway</ADDRESS_1>
+      <ADDRESS_2>Suite 200</ADDRESS_2>
+      <FIRST_NAME>FIRST_NAME</FIRST_NAME>
+      <MIDDLE_INITIAL>MIDDLE_INITIAL</MIDDLE_INITIAL>
+      <LAST_NAME>LAST_NAME</LAST_NAME>
+      <CITY>Redwood City</CITY>
+      <COUNTRY>USA</COUNTRY>
+      <EMAIL_ADDRESS>testuser@yodleetest.com</EMAIL_ADDRESS>
+      <currencySymbol>{com.yodlee.core.currency.USD.symbol}</currencySymbol>
+      <dateFormat>{com.yodlee.core.dateFormat.default}</dateFormat>
+      <cobrandId>10000004</cobrandId>
+      <decimalSeparator>{com.yodlee.core.decimalSeparator.default}</decimalSeparator>
+      <groupingSeparator>{com.yodlee.core.groupingSeparator.default}</groupingSeparator>
+      <groupPattern>{com.yodlee.core.groupPattern.default}</groupPattern>
+      <locale>US_en</locale>
+      <com.yodlee.alert.email.advancecontent>true</com.yodlee.alert.email.advancecontent>
+    </AlertRecieverProfile>
+  </Profile>
+  <message>
+      <header>
+        <messageId>25025125</messageId>
+        <timestamp>2009-05-19T08:03:24Z</timestamp>
+        <expiry>2009-05-23T07:00:00Z</expiry>
+        <messageType>BUDGET_THRESHOLD_ALERT</messageType>
+        <messageFormat>DATA</messageFormat>
+        <retry>false</retry>
+        <locale>en_US</locale>
+        <destinationList>
+          <destination>
+            <destinationId>3</destinationId>
+            <destinationType>xml</destinationType>
+            <address>abc@yodlee.com</address>
+          </destination>
+        </destinationList>
+      </header>
+      <body>
+        <budgetThresholdAlert>
+          <groups>
+            <group>
+              <categories>Catagory</categories>
+            </group>
+            <group groupId="10036960" groupName="CHECKING">
+              <categories>
+                <category>
+                  <type>0</type>
+                  <categoryId>0</categoryId>
+                  <currencyCode>USD</currencyCode>
+                  <name>Total Income</name>
+                  <goal>237</goal>
+                  <threshold>90.0</threshold>
+                  <current>123</current>
+                  <average>12</average>
+                </category>
+              </categories>
+            </group>
+          </groups>
+        </budgetThresholdAlert>
+      </body>
+    </message>
+  </AlertMessage>

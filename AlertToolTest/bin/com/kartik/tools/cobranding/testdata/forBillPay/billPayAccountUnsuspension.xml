@@ -1,0 +1,51 @@
+<AlertMessage>
+  <Profile>
+    <AlertRecieverProfile>
+      <USERNAME>loginName</USERNAME>
+      <ADDRESS_1>3600 Bridge Parkway</ADDRESS_1>
+      <ADDRESS_2>Suite 200</ADDRESS_1>
+      <FIRST_NAME>FIRST_NAME</FIRST_NAME>
+      <MIDDLE_INITIAL>MIDDLE_INITIAL</MIDDLE_INITIAL>
+      <LAST_NAME>LAST_NAME</LAST_NAME>
+      <CITY>Redwood City</CITY>
+      <COUNTRY>USA</COUNTRY>
+      <EMAIL_ADDRESS>testuser@yodleetest.com</EMAIL_ADDRESS>
+      <currencySymbol>{com.yodlee.core.currency.USD.symbol}</currencySymbol>
+      <dateFormat>{com.yodlee.core.dateFormat.default}</dateFormat>
+      <cobrandId>10000004</cobrandId>
+      <decimalSeparator>{com.yodlee.core.decimalSeparator.default}</decimalSeparator>
+      <groupingSeparator>{com.yodlee.core.groupingSeparator.default}</groupingSeparator>
+      <groupPattern>{com.yodlee.core.groupPattern.default}</groupPattern>
+      <locale>US_en</locale>
+      <com.yodlee.alert.email.advancecontent>true</com.yodlee.alert.email.advancecontent>
+    </AlertRecieverProfile>
+  </Profile>
+  <message>
+    <header>
+      <messageId>18615</messageId>
+      <timestamp>2009-09-07T08:15:23Z</timestamp>
+      <expiry>2009-09-14T08:15:23Z</expiry>
+      <messageType>BILLPAY_PAYMENT_ACCOUNT_SUSPENSION</messageType>
+      <messageFormat>DATA</messageFormat>
+      <retry>false</retry>
+      <locale>en_US</locale>
+    </header>
+    <body>
+      <billPayPaymentAccountSuspensionAction>
+        <user>
+          <userId>11387985</userId>
+          <loginName>bvt_in-hp37_1252310400386</loginName>
+        </user>
+        <billPayPaymentAccountStatus>
+        ACTIVE</billPayPaymentAccountStatus>
+        <billPayPaymentAccountData>
+          <accountName />
+          <accountNickName>IQB:
+          bvt_in-hp37_12523104003861252310499604</accountNickName>
+          <accountNumber>XXXXXXXXXXX9604</accountNumber>
+        </billPayPaymentAccountData>
+        <billPayPaymentList />
+      </billPayPaymentAccountSuspensionAction>
+    </body>
+  </message>
+</AlertMessage>

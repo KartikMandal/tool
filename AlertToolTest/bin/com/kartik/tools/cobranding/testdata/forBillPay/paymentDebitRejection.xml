@@ -1,0 +1,67 @@
+<AlertMessage>
+  <Profile>
+    <AlertRecieverProfile>
+      <USERNAME>loginName</USERNAME>
+      <ADDRESS_1>3600 Bridge Parkway</ADDRESS_1>
+      <ADDRESS_2>Suite 200</ADDRESS_1>
+      <FIRST_NAME>FIRST_NAME</FIRST_NAME>
+      <MIDDLE_INITIAL>MIDDLE_INITIAL</MIDDLE_INITIAL>
+      <LAST_NAME>LAST_NAME</LAST_NAME>
+      <CITY>Redwood City</CITY>
+      <COUNTRY>USA</COUNTRY>
+      <EMAIL_ADDRESS>testuser@yodleetest.com</EMAIL_ADDRESS>
+      <currencySymbol>{com.yodlee.core.currency.USD.symbol}</currencySymbol>
+      <dateFormat>{com.yodlee.core.dateFormat.default}</dateFormat>
+      <cobrandId>10000004</cobrandId>
+      <decimalSeparator>{com.yodlee.core.decimalSeparator.default}</decimalSeparator>
+      <groupingSeparator>{com.yodlee.core.groupingSeparator.default}</groupingSeparator>
+      <groupPattern>{com.yodlee.core.groupPattern.default}</groupPattern>
+      <locale>US_en</locale>
+      <com.yodlee.alert.email.advancecontent>true</com.yodlee.alert.email.advancecontent>
+    </AlertRecieverProfile>
+  </Profile>
+  <message>
+    <header>
+      <messageId>10008813</messageId>
+      <timestamp>2008-11-25T06:18:11Z</timestamp>
+      <expiry>2008-12-02T06:18:11Z</expiry>
+      <messageType>PAYMENT_FAILED</messageType>
+      <messageFormat>DATA</messageFormat>
+      <retry>false</retry>
+      <locale>en_US</locale>
+    </header>
+    <body>
+      <paymentDebitRejectionAction>
+        <user>
+          <userId>10012350</userId>
+          <loginName>90build72</loginName>
+        </user>
+        <payment>
+          <transactionId>C1CT522UDZ</transactionId>
+          <payee>
+            <payeeId>10005150</payeeId>
+            <itemAccountId>10007850</itemAccountId>
+            <payeeName>PRIMUS AUTOMOTIVE 1</payeeName>
+            <payeeDescription />
+            <payeeNickName>pa1</payeeNickName>
+          </payee>
+          <status>PAYMENT_MADE</status>
+          <requestTimestamp>2008-11-24T02:32:49Z</requestTimestamp>
+          <completionTimestamp>
+          2008-11-24T07:33:00Z</completionTimestamp>
+          <paymentAmount>
+            <currencyCode>USD</currencyCode>
+            <amount>4.50</amount>
+          </paymentAmount>
+          <paymentMemo />
+        </payment>
+        <billPayPaymentAccountData>
+          <contentServiceName>Wachovia</contentServiceName>
+          <accountName />
+          <accountNickName />
+          <accountNumber>XXXXXX6789</accountNumber>
+        </billPayPaymentAccountData>
+      </paymentDebitRejectionAction>
+    </body>
+  </message>
+</AlertMessage>

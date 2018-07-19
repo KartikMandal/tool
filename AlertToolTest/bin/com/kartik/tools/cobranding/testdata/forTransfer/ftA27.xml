@@ -1,0 +1,130 @@
+<AlertMessage>
+  <Profile>
+    <AlertRecieverProfile>
+      <USERNAME>loginName</USERNAME>
+      <ADDRESS_1>3600 Bridge Parkway</ADDRESS_1>
+      <ADDRESS_2>Suite 200</ADDRESS_2>
+      <FIRST_NAME>FIRST_NAME</FIRST_NAME>
+      <MIDDLE_INITIAL>MIDDLE_INITIAL</MIDDLE_INITIAL>
+      <LAST_NAME>LAST_NAME</LAST_NAME>
+      <CITY>Redwood City</CITY>
+      <COUNTRY>USA</COUNTRY>
+      <EMAIL_ADDRESS>testuser@yodleetest.com</EMAIL_ADDRESS>
+      <currencySymbol>{com.yodlee.core.currency.USD.symbol}</currencySymbol>
+      <dateFormat>{com.yodlee.core.dateFormat.default}</dateFormat>
+      <cobrandId>10003360</cobrandId>
+      <decimalSeparator>{com.yodlee.core.decimalSeparator.default}</decimalSeparator>
+      <groupingSeparator>{com.yodlee.core.groupingSeparator.default}</groupingSeparator>
+      <groupPattern>{com.yodlee.core.groupPattern.default}</groupPattern>
+      <locale>US_en</locale>
+      <com.yodlee.alert.email.advancecontent>true</com.yodlee.alert.email.advancecontent>
+    </AlertRecieverProfile>
+  </Profile>
+    <message>
+      <header>
+        <messageId>10427870</messageId>
+        <timestamp>2006-07-01T13:39:45Z</timestamp>
+        <expiry>2006-07-08T13:39:45Z</expiry>
+        <messageType>SERVICE_REGISTRATION</messageType>
+        <messageFormat>DATA</messageFormat>
+        <retry>false</retry>
+        <destinationList>
+          <destination>
+            <destinationId>5</destinationId>
+            <destinationType>xml</destinationType>
+            <address>vgovinda@yodlee.com</address>
+          </destination>
+        </destinationList>
+      </header>
+      <body>
+		<fundsTransferIAVSuccessAction>
+			<fundsTransferAccountData>
+				<accountName>House Renovation Fund</accountName>
+				<accountType>Savings</accountType>
+				<accountNumber>XXXX-XXX-0667</accountNumber>
+			</fundsTransferAccountData>
+		</fundsTransferIAVSuccessAction>
+		<fundsTransferIAVAction>
+			<fundsTransferAccountData>
+				<accountName>House Renovation Fund</accountName>
+				<accountType>Brokerage</accountType>
+				<accountNumber>XXXX-XXX-0667</accountNumber>
+			</fundsTransferAccountData>
+		</fundsTransferIAVAction>
+		<fundsTransferDebitOrCreditReversedAction>
+			<fundsTransferTransferData>
+				<transferDate>01/11/2013</transferDate>
+				<transferId>123-456-789</transferId>
+				<transferAmount>413.95</transferAmount>
+				<fromAccount>
+					<accountName>Emma's College Fund</accountName>
+					<accountType>Checking</accountType>
+					<accountNumber>1234-98765</accountNumber>
+				</fromAccount>
+				<toAccount>
+					<accountName>Claire's College Fund</accountName>
+					<accountType>Checking</accountType>
+					<accountNumber>XXXX-XXX-4138</accountNumber>
+				</toAccount>
+			</fundsTransferTransferData>
+		</fundsTransferDebitOrCreditReversedAction>
+		<fundsTransferCancelTransferAction>
+			<fundsTransferTransferData>
+				<transferId>01-666-777-2013</transferId>
+				<transferDate>01/07/2013</transferDate>
+				<transferAmount>2,145.39</transferAmount>
+				<fromAccount>
+					<accountName>Rainy-Day Savings</accountName>
+					<accountType>Savings</accountType>
+					<accountNumber>XXXX-XXX-0667</accountNumber>
+				</fromAccount>
+				<toAccount>
+					<accountName>Trust Fund</accountName>
+					<accountType>Checking</accountType>
+					<accountNumber>XXXX-XXX-4138</accountNumber>
+				</toAccount>
+			</fundsTransferTransferData>
+		</fundsTransferCancelTransferAction>
+		<fundsTransferRecurringTransferEndApproachingAction>
+			<fundsTransferTransferData>
+				<transferAmount>1,576.99</transferAmount>
+				<fromAccount>
+					<accountName>Holiday Account</accountName>
+					<accountType>Money-Market</accountType>
+					<accountNumber>XXXX-XXX-0667</accountNumber>
+				</fromAccount>
+				<toAccount>
+					<accountName>Personal Account</accountName>
+					<accountType>Checking</accountType>
+					<accountNumber>XXXX-XXX-4138</accountNumber>
+				</toAccount>
+			</fundsTransferTransferData>
+		</fundsTransferRecurringTransferEndApproachingAction>  
+        <registrationData>
+          <user>
+            <userId>10017118</userId>
+            <loginName>vivek_bayana</loginName>
+          </user>
+          <registrationTimestamp>2009-07-01</registrationTimestamp>
+          <serviceType>1</serviceType>
+        </registrationData>
+		<fundsTransferChallengeDepositVerificationAction>
+			<fundsTransferAccountData>
+				<isDebit>1</isDebit>
+				<accountName>Investment Portfolio</accountName>
+				<accountType>Brokerage</accountType>
+				<accountNumber>XXXX-XXX-0667</accountNumber>
+				<expiryDate>01/07/2013</expiryDate>
+			</fundsTransferAccountData>
+		</fundsTransferChallengeDepositVerificationAction>
+		<fundsTransferAccountSuspensionAction>
+			<currentDate>01/11/2013</currentDate>
+			<fundsTransferAccountData>
+				<accountName>College Fund</accountName>
+				<accountType>Savings</accountType>
+				<accountNumber>XXXX-XXX-4138</accountNumber>
+			</fundsTransferAccountData>
+		</fundsTransferAccountSuspensionAction>
+      </body>
+    </message>
+</AlertMessage>

@@ -1,0 +1,51 @@
+<AlertMessage>
+  <Profile>
+    <AlertRecieverProfile>
+      <USERNAME>loginName</USERNAME>
+      <ADDRESS_1>3600 Bridge Parkway</ADDRESS_1>
+      <ADDRESS_2>Suite 200</ADDRESS_2>
+      <FIRST_NAME>FIRST_NAME</FIRST_NAME>
+      <MIDDLE_INITIAL>MIDDLE_INITIAL</MIDDLE_INITIAL>
+      <LAST_NAME>LAST_NAME</LAST_NAME>
+      <CITY>Redwood City</CITY>
+      <COUNTRY>USA</COUNTRY>
+      <EMAIL_ADDRESS>testuser@yodleetest.com</EMAIL_ADDRESS>
+      <currencySymbol>{com.yodlee.core.currency.USD.symbol}</currencySymbol>
+      <dateFormat>{com.yodlee.core.dateFormat.default}</dateFormat>
+      <cobrandId>10000004</cobrandId>
+      <decimalSeparator>{com.yodlee.core.decimalSeparator.default}</decimalSeparator>
+      <groupingSeparator>{com.yodlee.core.groupingSeparator.default}</groupingSeparator>
+      <groupPattern>{com.yodlee.core.groupPattern.default}</groupPattern>
+      <locale>US_en</locale>
+      <com.yodlee.alert.email.advancecontent>true</com.yodlee.alert.email.advancecontent>
+    </AlertRecieverProfile>
+  </Profile>
+  <message>
+      <header>
+        <messageId>25040381</messageId>
+        <timestamp>2009-05-20T07:43:37Z</timestamp>
+        <expiry>2009-05-27T07:43:38Z</expiry>
+        <messageType>SERVICE_REGISTRATION</messageType>
+        <messageFormat>DATA</messageFormat>
+        <retry>false</retry>
+        <locale>en_US</locale>
+        <destinationList>
+          <destination>
+            <destinationId>3</destinationId>
+            <destinationType>xml</destinationType>
+            <address>abc@yodlee.com</address>
+          </destination>
+        </destinationList>
+      </header>
+      <body>
+        <registrationData>
+          <user>
+            <userId>22255240</userId>
+            <loginName>379dd48c8b17d2cb1a744e62b4fc4c2d</loginName>
+          </user>
+          <registrationTimestamp>2009-05-20T00:43:31Z</registrationTimestamp>
+          <serviceType>1</serviceType>
+        </registrationData>
+      </body>
+    </message>
+  </AlertMessage>

@@ -1,0 +1,76 @@
+<AlertMessage>
+  <Profile>
+    <AlertRecieverProfile>
+      <USERNAME>loginName</USERNAME>
+      <ADDRESS_1>3600 Bridge Parkway</ADDRESS_1>
+      <ADDRESS_2>Suite 200</ADDRESS_2>
+      <FIRST_NAME>FIRST_NAME</FIRST_NAME>
+      <MIDDLE_INITIAL>MIDDLE_INITIAL</MIDDLE_INITIAL>
+      <LAST_NAME>LAST_NAME</LAST_NAME>
+      <CITY>Redwood City</CITY>
+      <COUNTRY>USA</COUNTRY>
+      <EMAIL_ADDRESS>testuser@yodleetest.com</EMAIL_ADDRESS>
+      <currencySymbol>{com.yodlee.core.currency.USD.symbol}</currencySymbol>
+      <dateFormat>{com.yodlee.core.dateFormat.default}</dateFormat>
+      <cobrandId>10015752</cobrandId>
+      <decimalSeparator>{com.yodlee.core.decimalSeparator.default}</decimalSeparator>
+      <groupingSeparator>{com.yodlee.core.groupingSeparator.default}</groupingSeparator>
+      <groupPattern>{com.yodlee.core.groupPattern.default}</groupPattern>
+      <locale>US_en</locale>
+      <com.yodlee.alert.email.advancecontent>true</com.yodlee.alert.email.advancecontent>
+    </AlertRecieverProfile>
+  </Profile>
+ <message><header><messageId>20129567</messageId>
+<timestamp>2015-04-25T14:49:56Z</timestamp>
+<expiry>2015-05-02T06:30:00Z</expiry>
+<messageType>BUDGET_THRESHOLD_ALERT</messageType>
+<messageFormat>DATA</messageFormat>
+<retry>false</retry>
+<locale>en_US</locale>
+</header><body><budgetThresholdAlert>
+        <user>
+                <cobrandId>10003352</cobrandId>
+                <userId>12239019</userId>
+                <loginName>fionaschoonens1</loginName>
+                </user>
+        <metaData>
+                <month>April</month>
+        </metaData>
+        <groups>
+                <locale>en_US</locale>
+                <dateFormat>dd/MM/yyyy</dateFormat>
+                <currencySymbol>SYMBOL</currencySymbol>
+                <userCurrency>AUD</userCurrency>
+                <decimalSeparator>.</decimalSeparator>
+                <groupingSeparator>,</groupingSeparator>
+                <groupPattern>###,##0.##</groupPattern>
+                <group>
+                        <categories>
+<category>
+                <type>3</type>
+                <categoryId>2</categoryId>
+                <currencyCode>AUD</currencyCode>
+                <name>Automotive Expenses</name>
+                <goal>140.00</goal>
+                <threshold>100.0</threshold>
+                <thresholdAmount>140.00</thresholdAmount>
+                <current>149.96</current>
+                <average>245.35</average>
+                </category>
+
+<category>
+                <type>3</type>
+                <categoryId>10</categoryId>
+                <currencyCode>AUD</currencyCode>
+                <name>Groceries</name>
+                <goal>640.00</goal>
+                <threshold>100.0</threshold>
+                <thresholdAmount>640.00</thresholdAmount>
+                <current>660.33</current>
+                <average>707.34</average>
+                </category>
+
+                        </categories>
+                </group>
+        </groups>
+</budgetThresholdAlert></body></message> </AlertMessage>

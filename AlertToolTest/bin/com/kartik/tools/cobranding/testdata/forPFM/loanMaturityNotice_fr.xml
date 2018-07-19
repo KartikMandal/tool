@@ -1,0 +1,32 @@
+<AlertMessage>
+  <Profile>
+    <AlertRecieverProfile>
+      <USERNAME>loginName</USERNAME>
+      <ADDRESS_1>3600 Bridge Parkway</ADDRESS_1>
+      <ADDRESS_2>Suite 200</ADDRESS_2>
+      <FIRST_NAME>FIRST_NAME</FIRST_NAME>
+      <MIDDLE_INITIAL>MIDDLE_INITIAL</MIDDLE_INITIAL>
+      <LAST_NAME>LAST_NAME</LAST_NAME>
+      <CITY>Redwood City</CITY>
+      <COUNTRY>USA</COUNTRY>
+      <EMAIL_ADDRESS>testuser@yodleetest.com</EMAIL_ADDRESS>
+      <currencySymbol>{com.yodlee.core.currency.USD.symbol}</currencySymbol>
+      <dateFormat>{com.yodlee.core.dateFormat.default}</dateFormat>
+      <cobrandId>10000004</cobrandId>
+      <decimalSeparator>{com.yodlee.core.decimalSeparator.default}</decimalSeparator>
+      <groupingSeparator>{com.yodlee.core.groupingSeparator.default}</groupingSeparator>
+      <groupPattern>{com.yodlee.core.groupPattern.default}</groupPattern>
+      <locale>US_en</locale>
+      <com.yodlee.alert.email.advancecontent>true</com.yodlee.alert.email.advancecontent>
+    </AlertRecieverProfile>
+  </Profile>
+
+  <message><header><messageId>15962902</messageId>
+<timestamp>2009-02-02T18:30:00Z</timestamp>
+<expiry>2009-02-17T07:16:48Z</expiry>
+<messageType>LOAN_MATURITY_NOTICE</messageType>
+<messageFormat>DATA</messageFormat>
+<retry>false</retry>
+<locale>en_US</locale>
+</header><body><loanMaturityData><user><cobrandId>99</cobrandId><userId>10136153</userId><loginName>b802bld135</loginName></user><item><itemId>10419700</itemId><contentServiceId>10739</contentServiceId><contentServiceCategory>loans</contentServiceCategory><contentServiceName>TestSite for Loan5</contentServiceName><custom>false</custom><itemNickname/><itemStatus>ACCESS_VERIFIED</itemStatus><lastSuccessfulAccessTimestamp>2009-02-10T07:03:02Z</lastSuccessfulAccessTimestamp><lastAccessAttemptTimestamp>2009-02-10T07:03:02Z</lastAccessAttemptTimestamp><lastAccessAttemptStatusCode>0</lastAccessAttemptStatusCode></item><itemAccount><accountId>11580450</accountId><accountName>AccName322</accountName><accountNumber/><accountType>ASSET</accountType><accountBalance><currencyCode>USD</currencyCode><amount>5661232.99</amount></accountBalance><accountNickName/></itemAccount><maturityDate>2009-02-12</maturityDate><advanceWarningDays>7</advanceWarningDays></loanMaturityData></body></message>
+</AlertMessage>

@@ -1,0 +1,71 @@
+<AlertMessage>
+  <Profile>
+    <AlertRecieverProfile>
+      <USERNAME>loginName</USERNAME>
+      <ADDRESS_1>3600 Bridge Parkway</ADDRESS_1>
+      <ADDRESS_2>Suite 200</ADDRESS_1>
+      <FIRST_NAME>FIRST_NAME</FIRST_NAME>
+      <MIDDLE_INITIAL>MIDDLE_INITIAL</MIDDLE_INITIAL>
+      <LAST_NAME>LAST_NAME</LAST_NAME>
+      <CITY>Redwood City</CITY>
+      <COUNTRY>USA</COUNTRY>
+      <EMAIL_ADDRESS>testuser@yodleetest.com</EMAIL_ADDRESS>
+      <currencySymbol>{com.yodlee.core.currency.USD.symbol}</currencySymbol>
+      <dateFormat>{com.yodlee.core.dateFormat.default}</dateFormat>
+      <cobrandId>10000004</cobrandId>
+      <decimalSeparator>{com.yodlee.core.decimalSeparator.default}</decimalSeparator>
+      <groupingSeparator>{com.yodlee.core.groupingSeparator.default}</groupingSeparator>
+      <groupPattern>{com.yodlee.core.groupPattern.default}</groupPattern>
+      <locale>US_en</locale>
+      <com.yodlee.alert.email.advancecontent>true</com.yodlee.alert.email.advancecontent>
+      <getPaymentErrorMessage>[Payment Error Message]</getPaymentErrorMessage>
+    </AlertRecieverProfile>
+  </Profile>
+  <message>
+    <header>
+      <messageId>10001365</messageId>
+      <timestamp>2008-11-05T11:58:49Z</timestamp>
+      <expiry>2008-11-12T11:58:49Z</expiry>
+      <messageType>PAYMENT_COMPLETION</messageType>
+      <messageFormat>DATA</messageFormat>
+      <retry>false</retry>
+      <locale>en_US</locale>
+    </header>
+    <body>
+      <paymentCompletionData>
+        <user>
+          <cobrandId>99</cobrandId>
+          <userId>10000503</userId>
+          <loginName>90db01</loginName>
+        </user>
+        <payment>
+          <transactionId>C1CT522SAY</transactionId>
+          <payee>
+            <payeeId>10002452</payeeId>
+            <itemAccountId>10003703</itemAccountId>
+            <payeeName>DIRECT MERCHANTS BANK</payeeName>
+            <payeeDescription />
+            <payeeNickName>WU1</payeeNickName>
+          </payee>
+          <status>PAYMENT_NOT_MADE</status>
+          <reasonCode>707</reasonCode>
+          <requestTimestamp>2008-11-05T03:58:48Z</requestTimestamp>
+          <completionTimestamp>
+          2008-11-05T03:50:50Z</completionTimestamp>
+          <paymentAmount>
+            <currencyCode>USD</currencyCode>
+            <amount>9.00</amount>
+          </paymentAmount>
+          <paymentMemo />
+        </payment>
+        <billPayPaymentAccountData>
+          <contentServiceName>Far East National
+          Bank</contentServiceName>
+          <accountName />
+          <accountNickName>SBH</accountNickName>
+          <accountNumber>XXXXXXXXXXXX1300</accountNumber>
+        </billPayPaymentAccountData>
+      </paymentCompletionData>
+    </body>
+  </message>
+</AlertMessage>

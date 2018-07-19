@@ -1,0 +1,90 @@
+<AlertMessage>
+  <Profile>
+    <AlertRecieverProfile>
+      <USERNAME>loginName</USERNAME>
+      <ADDRESS_1>3600 Bridge Parkway</ADDRESS_1>
+      <ADDRESS_2>Suite 200</ADDRESS_2>
+      <FIRST_NAME>FIRST_NAME</FIRST_NAME>
+      <MIDDLE_INITIAL>MIDDLE_INITIAL</MIDDLE_INITIAL>
+      <LAST_NAME>LAST_NAME</LAST_NAME>
+      <CITY>Redwood City</CITY>
+      <COUNTRY>USA</COUNTRY>
+      <EMAIL_ADDRESS>testuser@yodleetest.com</EMAIL_ADDRESS>
+      <currencySymbol>{com.yodlee.core.currency.USD.symbol}</currencySymbol>
+      <dateFormat>{com.yodlee.core.dateFormat.default}</dateFormat>
+      <cobrandId>10000004</cobrandId>
+      <decimalSeparator>{com.yodlee.core.decimalSeparator.default}</decimalSeparator>
+      <groupingSeparator>{com.yodlee.core.groupingSeparator.default}</groupingSeparator>
+      <groupPattern>{com.yodlee.core.groupPattern.default}</groupPattern>
+      <locale>US_en</locale>
+      <com.yodlee.alert.email.advancecontent>true</com.yodlee.alert.email.advancecontent>
+    </AlertRecieverProfile>
+  </Profile>
+  <message>
+    <header>
+      <messageId>15958431</messageId>
+      <timestamp>2009-02-10T05:02:29Z</timestamp>
+      <expiry>2009-02-17T05:02:32Z</expiry>
+      <messageType>LARGE_BANK_WITHDRAWAL_WARNING</messageType>
+      <messageFormat>DATA</messageFormat>
+      <retry>false</retry>
+      <locale>en_US</locale>
+      <destinationList>
+        <destination>
+          <destinationId>7</destinationId>
+          <destinationType>xml</destinationType>
+          <address>bprakash@yodlee.com</address>
+        </destination>
+      </destinationList>
+    </header>
+    <body>
+      <largeBankWithdrawalWarningData>
+        <user>
+          <cobrandId>99</cobrandId>
+          <userId>10136153</userId>
+          <loginName>b802bld135</loginName>
+        </user>
+        <item>
+          <itemId>10418457</itemId>
+          <contentServiceId>4752</contentServiceId>
+          <contentServiceCategory>bank</contentServiceCategory>
+          <contentServiceName>TestSite for
+          Bank</contentServiceName>
+          <custom>false</custom>
+          <itemNickname />
+          <itemStatus>ACCESS_VERIFIED</itemStatus>
+          <lastSuccessfulAccessTimestamp>
+          2009-02-10T05:01:37Z</lastSuccessfulAccessTimestamp>
+          <lastAccessAttemptTimestamp>
+          2009-02-10T05:01:37Z</lastAccessAttemptTimestamp>
+          <lastAccessAttemptStatusCode>
+          0</lastAccessAttemptStatusCode>
+        </item>
+        <itemAccount>
+          <accountId>11579402</accountId>
+          <accountName>Bank_OverDraft_162</accountName>
+          <accountNumber>XXXX XXXX XXXX 1276</accountNumber>
+          <accountType>ASSET</accountType>
+          <accountBalance>
+            <currencyCode>USD</currencyCode>
+            <amount>190.00</amount>
+          </accountBalance>
+          <accountNickName />
+        </itemAccount>
+        <transaction>
+          <date>2009-01-24</date>
+          <description>CD Withdrawal Fee</description>
+          <transactionAmount>
+            <currencyCode>USD</currencyCode>
+            <amount>1234.00</amount>
+          </transactionAmount>
+          <transactionType>DEBIT</transactionType>
+        </transaction>
+        <threshold>
+          <currencyCode>USD</currencyCode>
+          <amount>500</amount>
+        </threshold>
+      </largeBankWithdrawalWarningData>
+    </body>
+  </message>
+</AlertMessage>

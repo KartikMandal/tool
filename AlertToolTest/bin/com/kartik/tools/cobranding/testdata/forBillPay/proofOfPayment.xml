@@ -1,0 +1,14 @@
+  <payment-info>
+    <customer-name>Customer Name</customer-name>
+    <cust-address>3600 Bridge Parkway, Redwood City, CA  94065</cust-address>
+    <payee-name>IQ Bank</payee-name>
+    <payee-address>The Bank Address, Redwood City, CA 94065</payee-address>
+    <payment-rail>Paper</payment-rail><!-- Paper / Electronic -->
+    <payment-amount>15.00</payment-amount>
+    <payment-acct-num>xxxxxxxx1234</payment-acct-num>
+    <scheduled-date>02/01/2010</scheduled-date>
+    <posting-date>02/01/2010</posting-date>
+    <comments>Here are some proof of payment comments</comments>
+    <deep-link-url>http://deep-link-url/</deep-link-url>
+    <cobrand-name>Yodlee</cobrand-name>
+  </payment-info>

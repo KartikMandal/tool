@@ -1,0 +1,55 @@
+<AlertMessage>
+		<Profile>
+        <AlertRecieverProfile>
+            <USERNAME>Kartik</USERNAME>
+            <ADDRESS_1>3600 Bridge Parkway</ADDRESS_1>
+            <ADDRESS_2>Suite 200</ADDRESS_2>
+            <FIRST_NAME>FIRST_NAME</FIRST_NAME>
+            <MIDDLE_INITIAL>MIDDLE_INITIAL</MIDDLE_INITIAL>
+            <LAST_NAME>Mandal</LAST_NAME>
+            <CITY>Bangalore City</CITY>
+            <COUNTRY>USA</COUNTRY>
+            <EMAIL_ADDRESS>testuser@yodleetest.com</EMAIL_ADDRESS>
+            <currencySymbol>{com.yodlee.core.currency.USD.symbol}</currencySymbol>
+            <dateFormat>{com.yodlee.core.dateFormat.default}</dateFormat>
+            <cobrandId>10000004</cobrandId>
+            <decimalSeparator>{com.yodlee.core.decimalSeparator.default}</decimalSeparator>
+            <groupingSeparator>{com.yodlee.core.groupingSeparator.default}</groupingSeparator>
+            <groupPattern>{com.yodlee.core.groupPattern.default}</groupPattern>
+            <locale>US_en</locale>
+            <com.yodlee.alert.email.advancecontent>true</com.yodlee.alert.email.advancecontent>
+        </AlertRecieverProfile>
+		</Profile>
+		
+<message>
+<body>
+				<sfgData>
+				    <user>
+	                    <userId>1234</userId>
+    	                <loginName>kartik</loginName>
+        	            <fullName>Kartik Chandra Mandal</fullName>
+					</user>
+					<userGoals>
+						<userGoal>
+                	    	<id>102</id>
+                    		<name>Buy a car</name>
+                    		<completionDate>2017-02-24</completionDate>
+                    		<targetAmount>
+                    		     <amount>5000.0</amount>
+                    		     <currencyCode>USD</currencyCode>
+                    		</targetAmount>
+                    		<actualSavedAmount>
+                    		     <amount>3000.0</amount>
+                    		     <currencyCode>USD</currencyCode>
+                    		</actualSavedAmount>
+                    		<remainingAmount>
+                    		     <amount>2000.0</amount>
+                    		     <currencyCode>USD</currencyCode>
+                    		</remainingAmount>
+	                    	<status>Inprogress</status>
+	                    </userGoal>
+					</userGoals>
+                </sfgData>
+</body>
+</message>
+</AlertMessage>

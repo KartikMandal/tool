@@ -1,0 +1,31 @@
+<AlertMessage>
+  <Profile>
+    <AlertRecieverProfile>
+      <USERNAME>loginName</USERNAME>
+      <ADDRESS_1>3600 Bridge Parkway</ADDRESS_1>
+      <ADDRESS_2>Suite 200</ADDRESS_2>
+      <FIRST_NAME>FIRST_NAME</FIRST_NAME>
+      <MIDDLE_INITIAL>MIDDLE_INITIAL</MIDDLE_INITIAL>
+      <LAST_NAME>LAST_NAME</LAST_NAME>
+      <CITY>Redwood City</CITY>
+      <COUNTRY>USA</COUNTRY>
+      <EMAIL_ADDRESS>testuser@yodleetest.com</EMAIL_ADDRESS>
+      <currencySymbol>{com.yodlee.core.currency.USD.symbol}</currencySymbol>
+      <dateFormat>{com.yodlee.core.dateFormat.default}</dateFormat>
+      <cobrandId>10000004</cobrandId>
+      <decimalSeparator>{com.yodlee.core.decimalSeparator.default}</decimalSeparator>
+      <groupingSeparator>{com.yodlee.core.groupingSeparator.default}</groupingSeparator>
+      <groupPattern>{com.yodlee.core.groupPattern.default}</groupPattern>
+      <locale>US_en</locale>
+      <com.yodlee.alert.email.advancecontent>true</com.yodlee.alert.email.advancecontent>
+    </AlertRecieverProfile>
+  </Profile>
+  <message><header><messageId>16014672</messageId>
+<timestamp>2009-02-09T18:30:00Z</timestamp>
+<expiry>2009-02-18T08:49:40Z</expiry>
+<messageType>INVESTMENT_MATURITY_NOTICE</messageType>
+<messageFormat>DATA</messageFormat>
+<retry>false</retry>
+<locale>en_US</locale>
+<destinationList><destination><destinationId>7</destinationId><destinationType>xml</destinationType><address>bprakash@yodlee.com</address></destination></destinationList></header><body><investmentMaturityData><user><cobrandId>99</cobrandId><userId>10136153</userId><loginName>b802bld135</loginName></user><item><itemId>10420100</itemId><contentServiceId>10738</contentServiceId><contentServiceCategory>stocks</contentServiceCategory><contentServiceName>TestSite for Investment5</contentServiceName><custom>false</custom><itemNickname/><itemStatus>ACCESS_VERIFIED</itemStatus><lastSuccessfulAccessTimestamp>2009-02-11T08:29:03Z</lastSuccessfulAccessTimestamp><lastAccessAttemptTimestamp>2009-02-11T08:29:03Z</lastAccessAttemptTimestamp><lastAccessAttemptStatusCode>0</lastAccessAttemptStatusCode></item><itemAccount><accountId>11580900</accountId><accountName>Account_Name_23</accountName><accountNumber/><accountType>ASSET</accountType><accountBalance><currencyCode>USD</currencyCode><amount>-2000.00</amount></accountBalance><accountNickName/></itemAccount><holding><symbol/><holdingType>CD</holdingType><assetClass/><description>4</description></holding><maturityDate>2009-02-12</maturityDate><advanceWarningDays>3</advanceWarningDays></investmentMaturityData></body></message>
+</AlertMessage>

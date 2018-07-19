@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AlertMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="yodlee-message-schema.xsd">
+  <message>
+	<body>
+		<ahhNewlySharedAccountAction>
+			<ahhOwner>
+				<firstName>swarnalatha</firstName>
+            <fullName>swarnalatha Gajendra Babu</fullName>
+
+			</ahhOwner>
+		</ahhNewlySharedAccountAction>
+	</body>
+  </message>
+	
+</AlertMessage>
+
+

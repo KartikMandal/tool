@@ -1,0 +1,73 @@
+<AlertMessage>
+  <Profile>
+    <AlertRecieverProfile>
+      <USERNAME>loginName</USERNAME>
+      <ADDRESS_1>3600 Bridge Parkway</ADDRESS_1>
+      <ADDRESS_2>Suite 200</ADDRESS_1>
+      <FIRST_NAME>FIRST_NAME</FIRST_NAME>
+      <MIDDLE_INITIAL>MIDDLE_INITIAL</MIDDLE_INITIAL>
+      <LAST_NAME>LAST_NAME</LAST_NAME>
+      <CITY>Redwood City</CITY>
+      <COUNTRY>USA</COUNTRY>
+      <EMAIL_ADDRESS>testuser@yodleetest.com</EMAIL_ADDRESS>
+      <currencySymbol>{com.yodlee.core.currency.USD.symbol}</currencySymbol>
+      <dateFormat>{com.yodlee.core.dateFormat.default}</dateFormat>
+      <cobrandId>10000004</cobrandId>
+      <decimalSeparator>{com.yodlee.core.decimalSeparator.default}</decimalSeparator>
+      <groupingSeparator>{com.yodlee.core.groupingSeparator.default}</groupingSeparator>
+      <groupPattern>{com.yodlee.core.groupPattern.default}</groupPattern>
+      <locale>US_en</locale>
+      <com.yodlee.alert.email.advancecontent>true</com.yodlee.alert.email.advancecontent>
+    </AlertRecieverProfile>
+  </Profile>
+  <message>
+    <header>
+      <messageId>6412</messageId>
+      <timestamp>2009-06-14T11:28:28Z</timestamp>
+      <expiry>2009-06-21T11:28:28Z</expiry>
+      <messageType>PAYMENT_RAIL_CHANGE_TO_ELECTRONIC</messageType>
+      <messageFormat>DATA</messageFormat>
+      <retry>false</retry>
+      <locale>en_US</locale>
+    </header>
+    <body>
+      <paymentBeingProcessedAction>
+        <user>
+          <userId>11330135</userId>
+          <loginName>paym_bvt_alerts_test</loginName>
+        </user>
+        <payment>
+          <transactionId>C1CT5W7DBD</transactionId>
+          <payee>
+            <payeeId>199488</payeeId>
+            <itemAccountId>3151840</itemAccountId>
+            <payeeName>Yield House-1244978603</payeeName>
+            <payeeDescription>item account
+            description</payeeDescription>
+            <payeeNickName>
+            phani_payee_nickname_1244978603</payeeNickName>
+          </payee>
+          <status>PAYMENT_READY_TO_PROGRESS</status>
+          <requestTimestamp>2009-06-14T04:26:21Z</requestTimestamp>
+          <initiatedTimestamp>
+          2009-07-01T14:37:15Z</initiatedTimestamp>
+          <completionTimestamp>
+          2009-07-07T00:00:00Z</completionTimestamp>
+          <paymentAmount>
+            <currencyCode>USD</currencyCode>
+            <amount>10.00</amount>
+          </paymentAmount>
+          <paymentMemo />
+          <paymentRail>Electronic</paymentRail>
+        </payment>
+        <billPayPaymentAccountData>
+          <contentServiceName>TestSite for
+          Bank</contentServiceName>
+          <accountName />
+          <accountNickName>yodkavi121-1244978588</accountNickName>
+          <accountNumber>XXXXXX8588</accountNumber>
+        </billPayPaymentAccountData>
+      </paymentBeingProcessedAction>
+    </body>
+  </message>
+</AlertMessage>

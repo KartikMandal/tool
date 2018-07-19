@@ -1,0 +1,39 @@
+<AlertMessage>
+  <Profile>
+    <AlertRecieverProfile>
+      <USERNAME>loginName</USERNAME>
+      <ADDRESS_1>3600 Bridge Parkway</ADDRESS_1>
+      <ADDRESS_2>Suite 200</ADDRESS_2>
+      <FIRST_NAME>FIRST_NAME</FIRST_NAME>
+      <MIDDLE_INITIAL>MIDDLE_INITIAL</MIDDLE_INITIAL>
+      <LAST_NAME>LAST_NAME</LAST_NAME>
+      <CITY>Redwood City</CITY>
+      <COUNTRY>USA</COUNTRY>
+      <EMAIL_ADDRESS>testuser@yodleetest.com</EMAIL_ADDRESS>
+      <currencySymbol>$</currencySymbol>
+      <dateFormat>{com.yodlee.core.dateFormat.default}</dateFormat>
+      <cobrandId>10015752</cobrandId>
+      <decimalSeparator>{com.yodlee.core.decimalSeparator.default}</decimalSeparator>
+      <groupingSeparator>{com.yodlee.core.groupingSeparator.default}</groupingSeparator>
+      <groupPattern>{com.yodlee.core.groupPattern.default}</groupPattern>
+      <locale>US_en</locale>
+      <com.yodlee.alert.email.advancecontent>true</com.yodlee.alert.email.advancecontent>
+    </AlertRecieverProfile>
+  </Profile>
+  <message><header><messageId>15958775</messageId>
+<timestamp>2009-02-07T18:30:00Z</timestamp>
+<expiry>2009-02-13T18:30:00Z</expiry>
+<messageType>BILL_DUE</messageType>
+<messageFormat>DATA</messageFormat>
+<retry>true</retry>
+<locale>en_US</locale>
+<destinationList><destination><destinationId>1</destinationId><destinationType>xml</destinationType><address>apeter@yodlee.com</address></destination></destinationList></header>
+<body>
+	<userDashboardUpdate>
+	<totalIncome><amount>1111.000</amount></totalIncome>
+	<totalSpending><amount>2222.00</amount></totalSpending>
+	<billsDue><amount>333.00</amount></billsDue>
+	</userDashboardUpdate>
+</body>
+</message>
+</AlertMessage>
