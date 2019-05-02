@@ -1,0 +1,44 @@
+package com.kartik.certificate;
+
+import java.security.PrivateKey;
+import java.security.PublicKey;
+import java.security.cert.X509Certificate;
+ 
+public class CertificateDetails {
+ 
+ private PrivateKey privateKey;
+ 
+ private X509Certificate x509Certificate;
+ 
+ private PublicKey publicKey;
+ 
+ public PrivateKey getPrivateKey() {
+ return privateKey;
+ }
+ 
+ public void setPrivateKey(PrivateKey privateKey) {
+ this.privateKey = privateKey;
+ }
+ 
+ /**
+ * @return the publicKey
+ */
+public PublicKey getPublicKey() {
+	return publicKey;
+}
+
+/**
+ * @param publicKey the publicKey to set
+ */
+public void setPublicKey(PublicKey publicKey) {
+	this.publicKey = publicKey;
+}
+
+public X509Certificate getX509Certificate() {
+ return x509Certificate;
+ }
+ 
+ public void setX509Certificate(X509Certificate x509Certificate) {
+ this.x509Certificate = x509Certificate;
+ } 
+}
